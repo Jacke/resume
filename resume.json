@@ -25,14 +25,14 @@
         "url": "https://github.com/Jacke"
       },
       {
-        "network": "Twitter",
-        "username": "stanthoughts",
-        "url": "https://twitter.com/stanthoughts"
-      },
-      {
         "network": "LinkedIn",
         "username": "jacke1",
         "url": "https://www.linkedin.com/in/jacke1"
+      },
+      {
+        "network": "Twitter",
+        "username": "stanthoughts",
+        "url": "https://twitter.com/stanthoughts"
       }
     ]
   },
@@ -44,10 +44,7 @@
       "startDate": "2016-02-01",
       "summary": "GetGPU is a service that give cheap and affordable gpu instances",
       "highlights": [
-        "Preformed boilerplate development", 
-        "Hiring external developers", 
-        "Preformed testing for various types of product's components", 
-        "Writing initial user/developer documentation, code styles, design guide"
+        "Preformed boilerplate development of Minimal Vialible Product", 
       ]
     },  
 
@@ -67,7 +64,9 @@
       "startDate": "2016-12-05",
       "summary": "Online notepad with dynamic content recognition and deep content type interactions",
       "highlights": [
-       "dev", "test"
+        "Hiring external developers", 
+        "Preformed testing for various types of product's components", 
+        "Writing initial user/developer documentation, code styles, design guide"
      ]
     },    
 
