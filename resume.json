@@ -6,12 +6,10 @@
     "email": "iamjacke@gmail.com",
     "phone": "+7 (909) 086-04-51",
     "website": "https://github.com/Jacke",
-    "summary": "Stanislav was born in Saint-Petersburg. 
-    He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinals!) 
-    Before starting Pied Piper, he worked for Hooli as a part time software developer. 
-    While his work focuses on applied information theory, mostly optimizing lossless compression schema of both the 
-    length-limited and adaptive variants, his non-work interests range widely, everything from quantum computing to chaos theory. 
-    He could tell you about it, but THAT would NOT be a “length-limited” conversation!",
+    "summary": "Software Developer with 6 years history of productivity and successful project outcomes.
+                Startup founder with expirience of bootstraping and scaling SaaS product without external investments to profitable company.
+                Highly organized and independent; able to effectively coordinate tasks to accomplish projects with timeliness and creativity.
+                Innovative, enthusiastic, and uncompromising work ethic.",
    
     "location": {
       "address": "",
@@ -39,20 +37,33 @@
     ]
   },
   "work": [
+   {
+      "company": "GetGPU",
+      "position": "Founder",
+      "website": "https://getgpu.github.io",
+      "startDate": "2016-02-01",
+      "summary": "GetGPU is a service that give cheap and affordable gpu instances",
+      "highlights": [
+        "Preformed boilerplate development", 
+        "Hiring external developers", 
+        "Preformed testing for various types of product's components", 
+        "Writing initial user/developer documentation, code styles, design guide"
+      ]
+    },  
+
     {
       "company": "Flownotes",
       "position": "Founder",
-      "website": "",
+      "website": "https://flonotes.minorityapp.com",
       "startDate": "2016-12-05",
       "summary": "Online notepad with dynamic content recognition and deep content type interactions",
       "highlights": [
-        "marketresearch","customer acqusition" 
-     ]
+        "Preformed market researching", "Initiated early customer acqusition"]
     },
    {
       "company": "Flownotes",
       "position": "Full stack developer",
-      "website": "",
+      "website": "https://flonotes.minorityapp.com",
       "startDate": "2016-12-05",
       "summary": "Online notepad with dynamic content recognition and deep content type interactions",
       "highlights": [
@@ -67,8 +78,10 @@
       "startDate": "2015-12-01",
       "summary": "Workflow managment platform that helps people to describe their daily activities and to automate routine tasks",
       "highlights": [
-        "dev", "test", "docs", "delegation"
-     
+        "Preformed boilerplate development", 
+        "Hiring external developers", 
+        "Preformed testing for various types of product's components", 
+        "Writing initial user/developer documentation, code styles, design guide"
       ]
     },  
     {
@@ -78,7 +91,12 @@
       "startDate": "2015-12-01",
       "summary": "Workflow managment platform that helps people to describe their daily activities and to automate routine tasks",
       "highlights": [
-        "marketresearch","customer acqusition", "building sales team", "partnership"
+        "Identified opportunity to develop those type of platform",
+        "Preformed initial customer acqusition", 
+        "Researched several effective marketing channels that specific to this type of products",
+        "Organized building of sales team", 
+        "Constantly searched for partnership with big players on various events and by direct proposition",
+        "Organized initial support and reccuring customer stream"
       ]
     },    
     {
