@@ -9,7 +9,8 @@
     "summary": "Software Developer with 6 years history of productivity and successful project outcomes.
                 Startup founder with expirience of bootstraping and scaling SaaS product without external investments to profitable company.
                 Highly organized and independent; able to effectively coordinate tasks to accomplish projects with timeliness and creativity.
-                Innovative, enthusiastic, and uncompromising work ethic.",
+                Innovative, enthusiastic, and uncompromising work ethic.
+                Functional programming - Rank 1 @ HackerRank",
     "location": {
       "address": "",
       "postalCode": "",
@@ -48,7 +49,7 @@
       "startDate": "2016-02-01",
       "summary": "GetGPU is a service that give cheap and affordable gpu instances",
       "highlights": [
-        "Participated in developming of Minimal Vialible Product" 
+        "Participated in development of Minimal Vialible Product" 
       ]
     },  
 
@@ -59,8 +60,7 @@
       "startDate": "2016-12-05",
       "summary": "Online notepad with dynamic content recognition and deep content type interactions",
       "highlights": [
-        "Preformed market researching based on internal", 
-        "Initiated early customer acqusition"]
+        "Performed market researching based on internal", "Initiated early customer acqusition"]
     },
    {
       "company": "Flownotes",
@@ -69,9 +69,9 @@
       "startDate": "2016-12-05",
       "summary": "Online notepad with dynamic content recognition and deep content type interactions",
       "highlights": [
-        "Participated in developming of Minimal Vialible Product",
-        "Preformed testing for various types of product's components", 
-        "Writing initial user/developer documentation, code styles, design guide"
+        "Participated in development of Minimal Vialible Product",
+        "Performed testing for various types of product's components",
+        "Wrote initial user/developer documentation, code styles, design guide"
      ]
     },    
 
@@ -82,10 +82,10 @@
       "startDate": "2015-12-01",
       "summary": "Workflow managment platform that helps people to describe their daily activities and to automate routine tasks",
       "highlights": [
-        "Preformed boilerplate development", 
-        "Hiring external developers", 
+        "Worked boilerplate development", 
+        "Hiring external developers for delegation development activities", 
         "Preformed testing for various types of product's components", 
-        "Writing initial user/developer documentation, code styles, design guide"
+        "Wrote initial user/developer documentation, code styles, design guide"
       ]
     },  
     {
@@ -95,12 +95,12 @@
       "startDate": "2015-12-01",
       "summary": "Workflow managment platform that helps people to describe their daily activities and to automate routine tasks",
       "highlights": [
-        "Identified opportunity to develop those type of platform",
-        "Preformed initial customer acqusition", 
+       "Identified opportunity to develop those type of platform",
+        "Preformed initial customer acquisitions", 
         "Researched several effective marketing channels that specific to this type of products",
         "Organized building of sales team", 
         "Constantly searched for partnership with big players on various events and by direct proposition",
-        "Organized initial support and reccuring customer stream"
+        "Organized initial support and recurring customer stream"
       ]
     },    
     {
@@ -111,9 +111,9 @@
       "summary": "",
       "highlights": [
         "Build large-scale web applications and mobile-first websites using JavaScript, React, AngularJS, and Java/Scala",
-        "Research and implement new technologies including isomorphic JavaScript and MVC frameworks.",
-        "Collaborate closely with designers, copywriters, business stakeholders, and other developers.",
-        "Present to business stakeholders and other developers; write documentation."
+        "Researched and implemented new technologies including isomorphic JavaScript and MVC frameworks",
+        "Collaborated closely with designers, copywriters, business stakeholders, and other developers",
+        "Was a representative between business stakeholders and developers"
       ]
     },    
     {
@@ -124,11 +124,11 @@
       "endDate": "2015-10-01",
       "summary": "A single place to share, curate and discover visual content that tells a story.",
       "highlights": [
-       "Created new React components, and contributed to legacy architecture.",
-       "Designed interface mockups, web forms, and information architecture.",
-       "Wrote HTML, CSS, JS, and TypeScript code for front-end.",
-       "Tested, revised, and deployed code. Found and resolved Section 508 compliance issues.",
-       "Wrote internal and user-facing documentation, and led document reorganization project."
+       "Created new React components, and contributed to legacy architecture",
+       "Designed interface mockups, web forms, and information architecture",
+       "Wrote HTML, CSS, JS, and TypeScript code for front-end",
+       "Tested, revised, and deployed code. Found and resolved Section 508 compliance issues",
+       "Wrote internal and user-facing documentation, and led document reorganization project"
       ]
     },        
     {
@@ -139,8 +139,9 @@
       "endDate": "2015-08-11",
       "summary": "2GIS is a free business listings with a city map..",
       "highlights": [
-        "Improved user expirience and user interaction on client-side",
-        "Used plain moduleless javascript"
+       "Improved user experience and user interaction on client-side",
+        "Used plain modular javascript"
+        "Created rich, flexible, standards-compliant websites using Ruby on Rails and hand-coded HTML5, CSS3, and JavaScript"
       ]
     },    
     {
@@ -151,7 +152,7 @@
       "endDate": "2015-05-01",
       "summary": "Service for collecting items around all internet marketplaces where users can bookmark any item and recieve price updates",
       "highlights": [
-        "Created rich, flexible, standards-compliant websites using Ruby on Rails and hand-coded HTML5, CSS3, and JavaScript."
+        "Created rich, flexible, standards-compliant websites using Ruby on Rails and hand-coded HTML5, CSS3, and JavaScript"
       ]
     },    
     {
@@ -162,8 +163,8 @@
       "endDate": "2015-03-01",
       "summary": "Online book store with referal features for recuring customers",
       "highlights": [
-        "Develop a rich, responsive back-end, building from the ground up using Ruby on Rails.",
-        "Collaborated with programmers, the CEO, and partner companies to resolve issues. Wrote documentation."
+        "Develop a rich, responsive back-end, building from the ground up using Ruby on Rails",
+        "Collaborated with programmers, the CEO, and partner companies to resolve issues. Wrote documentation"
       ]
     },
     {
@@ -174,9 +175,12 @@
       "endDate": "2014-12-01",
       "summary": "One of major local web agency in the region",
       "highlights": [
-        "Developed more then 20 web projects for different types of customer",
-        "Supported projects with existing codebases and preformed small changes based on customer's needs ",
-        "Portrait of a typical customer included Javascript and php/python"
+
+        "Develop a rich, responsive back-end, building from the ground up using Ruby on Rails",
+        "Collaborated with programmers, the CEO, and partner companies to resolve issues. Wrote documentation"
+     "Developed more than 20 web projects for different types of customers",
+        "Supported projects with existing codebases and preformed small changes based on customer's needs",
+        "Worked on routine tasks that represented on several technologies included Javascript and PHP/Python"
       ]
     }        
   ],
@@ -247,7 +251,7 @@
       ]
     },
    {"name": "Mobile Software Enginering",
-      "level": "Post-Intermidiate",
+      "level": "Pre-Intermidiate",
       "keywords": [
         "Swift/iOS",
         "Android",
