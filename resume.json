@@ -10,7 +10,6 @@
                 Startup founder with expirience of bootstraping and scaling SaaS product without external investments to profitable company.
                 Highly organized and independent; able to effectively coordinate tasks to accomplish projects with timeliness and creativity.
                 Innovative, enthusiastic, and uncompromising work ethic.",
-   
     "location": {
       "address": "",
       "postalCode": "",
@@ -30,6 +29,11 @@
         "url": "https://www.linkedin.com/in/jacke1"
       },
       {
+        "network": "HackerRank",
+        "username": "iamjacke",
+        "url": "https://www.hackerrank.com/iamjacke"
+      },      
+      {
         "network": "Twitter",
         "username": "stanthoughts",
         "url": "https://twitter.com/stanthoughts"
@@ -44,7 +48,7 @@
       "startDate": "2016-02-01",
       "summary": "GetGPU is a service that give cheap and affordable gpu instances",
       "highlights": [
-        "Preformed boilerplate development of Minimal Vialible Product", 
+        "Participated in developming of Minimal Vialible Product" 
       ]
     },  
 
@@ -55,7 +59,8 @@
       "startDate": "2016-12-05",
       "summary": "Online notepad with dynamic content recognition and deep content type interactions",
       "highlights": [
-        "Preformed market researching", "Initiated early customer acqusition"]
+        "Preformed market researching based on internal", 
+        "Initiated early customer acqusition"]
     },
    {
       "company": "Flownotes",
@@ -64,7 +69,7 @@
       "startDate": "2016-12-05",
       "summary": "Online notepad with dynamic content recognition and deep content type interactions",
       "highlights": [
-        "Hiring external developers", 
+        "Participated in developming of Minimal Vialible Product",
         "Preformed testing for various types of product's components", 
         "Writing initial user/developer documentation, code styles, design guide"
      ]
@@ -178,11 +183,11 @@
 
   "education": [
     {"institution":"RBIM Russian-british institute of managment",
-        "area":"Computer Science",
-        "studyType": "Bachelor",
+     "area":"Computer Science",
+     "studyType": "Bachelor",
      "startDate": "2008-06-01",
-      "endDate": "2011-01-01",
-      "gpa": "4.5"        
+     "endDate": "2011-01-01",
+     "gpa": "4.5"        
     },
     {"institution": "CSU Chel state university",
       "area": "Business informatics",
