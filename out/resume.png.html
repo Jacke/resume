@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <title>Stanislav Sobolev</title>
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic'
+        rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <style>
+            * {
+              box-sizing: border-box;
+            }
+            
+            main {
+              display: block;
+            }
+            
+            body {
+              font-family: 'Helvetica Neue', 'Helvetica', 'Segoe UI', 'Calibri', 'sans-serif';
+              font-size: 15px;
+              color: #333;
+              line-height: 1.42857143;
+              background-color: #F0F0F0;
+              margin: 0;
+              padding: 0;
+            }
+            
+            /* Typical page borders are awkward when rendered to PDF. */
+            body.pdf {
+              background-color: #FFFFFF;
+            }
+            
+            /* Adobe or wkhtmltopdf has issues with the <main> tag, so we use <div> for
+            the PDF case, <main> for the HTML case, and style both via an ID. */
+            #main {
+              background-color: #FFF;
+              margin: 10px;
+              padding: 10px;
+              border: 1px solid #E6E6E6;
+            }
+            
+            body.pdf > #main {
+              border: none;
+            }
+            
+            #container > header {
+              padding-top: 6em;
+              padding-bottom: 1em;
+            }
+            
+            body.pdf #container > header {
+              padding: 0;
+            }
+            
+            #main > #container > section {
+              margin-left: 5em;
+              position: relative;
+              display: block;
+            }
+            
+            span.fa
+            {
+              position: absolute;
+              top: 4px;
+              left: -50px;
+              font-size: 30px;
+              color: #BFC1C3;
+            }
+            
+            hr {
+              margin-top: 20px;
+              margin-bottom: 20px;
+              border: 0;
+              border-top: 1px solid #EEE;
+            }
+            
+            .tenure, .keywords {
+              font-size: 75%;
+            }
+            
+            h1 {
+              margin: 0;
+              font-size: 46px;
+            }
+            
+            h2 {
+              font-size: 24px;
+              color: #BFC1C3;
+              text-transform: uppercase;
+              font-weight: normal;
+            }
+            
+            h3 {
+              margin-bottom: 0;
+              font-size: 18px;
+            }
+            
+            a, a:visited {
+              color: #428BCA;
+              text-decoration: none;
+              font-weight: bold;
+            }
+            
+            a:hover {
+              text-decoration: underline;
+            }
+            
+            .defunct {
+              color: #989898;
+              font-weight: bold;
+            }
+            
+            #summary > p > strong {
+              font-size: 1.25em;
+            }
+            
+            
+            .label-keyword {
+              display: inline-block;
+              background: #7eb0db;
+              color: white;
+              font-size: 0.9em;
+              padding: 5px;
+              border: 1px solid #357ebd;
+              border-radius: 5px;
+              margin-top: 2px;
+            }
+            
+            .card-skills {
+                position: relative;
+            }
+            .card-nested {
+                min-height: 0;
+                margin-bottom: 10px;
+                border-width: 1px 0 0 0;
+            }
+            .card {
+                background: #FFF;
+                border-radius: 3px;
+                padding: 10px;
+            }
+            
+            .skill-level {
+              border-radius: 3px;
+              position: absolute;
+              top: 10px;
+              bottom: 10px;
+              left: 0;
+              width: 10px;
+              box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.5);
+            }
+            .skill-level .skill-progress {
+              position: absolute;
+              border-radius: 3px;
+              bottom: 0;
+              width: 100%;
+              -webkit-transition: height 1s ease;
+            }
+            .skill-level .skill-progress.beginner {
+              height: 50%;
+              background: #e74c3c;
+            }
+            .skill-level .skill-progress.intermediate {
+              height: 70%;
+              background: #f1c40f;
+            }
+            .skill-level .skill-progress.advanced {
+              height: 80%;
+              background: #428bca;
+            }
+            .skill-level .skill-progress.master {
+              height: 95%;
+              background: #5cb85c;
+            }
+            .skill-info {
+              margin-left: 10px;
+            }
+            @media (max-width: 480px) {
+              .skill-info {
+                margin-left: 20px;
+              }
+            }
+            
+            .list-unstyled {
+              padding-left: 0;
+              list-style: none;
+            }
+            
+            .card-skills {
+              position: relative;
+            }
+            
+            .space-top {
+                margin-top: 10px;
+            }
+            
+            #container {
+              max-width: 800px;
+              margin: 0 auto;
+            }
+            
+            #elevator-pitch {
+              text-align: center;
+              font-size: 24px;
+              color: #BFC1C3;
+              text-transform: uppercase;
+              font-weight: normal;
+            }
+            
+            .res-label {
+              font-style: italic;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <main id="main">
+            <div id="container">
+                <header>
+                     <h1>Stanislav Sobolev</h1>
+
+                    <div id="contact"></div>
+                </header>
+                <hr>
+                <section id="skills">
+                    <header>
+                         <h2>Skills</h2>
+
+                    </header> <span class="fa fa-lg fa-code"></span>
+
+                    <ul class="list-unstyled">
+                        <li class="card card-nested card-skills">
+                            <div class="skill-level" rel="tooltip" title="Master" data-placement="left">
+                                <div class="skill-progress master"></div>
+                            </div>
+                            <div class="skill-info"> <strong>Software Enginering</strong>
+
+                                <div class="space-top labels"> <span class="label label-keyword">Javascript</span>
+ <span class="label label-keyword">TypeScript</span>
+
+                                    <span
+                                    class="label label-keyword">Java</span> <span class="label label-keyword">Scala</span>
+ <span class="label label-keyword">Algorithms</span>
+
+                                </div>
+                            </div>
+                        </li>
+                        <li class="card card-nested card-skills">
+                            <div class="skill-level" rel="tooltip" title="Pre-Intermidiate" data-placement="left">
+                                <div class="skill-progress pre-intermidiate"></div>
+                            </div>
+                            <div class="skill-info"> <strong>Mobile Software Enginering</strong>
+
+                                <div class="space-top labels"> <span class="label label-keyword">Swift/iOS</span>
+ <span class="label label-keyword">Android</span>
+
+                                    <span
+                                    class="label label-keyword">React Native</span> <span class="label label-keyword">Mobile testing</span>
+
+                                </div>
+                            </div>
+                        </li>
+                        <li class="card card-nested card-skills">
+                            <div class="skill-level" rel="tooltip" title="Intermidiate" data-placement="left">
+                                <div class="skill-progress intermidiate"></div>
+                            </div>
+                            <div class="skill-info"> <strong>Data Science</strong>
+
+                                <div class="space-top labels"> <span class="label label-keyword">Machnine learning</span>
+ <span class="label label-keyword">Optimization</span>
+
+                                    <span
+                                    class="label label-keyword">Hadoop</span> <span class="label label-keyword">Spark</span>
+
+                                </div>
+                            </div>
+                        </li>
+                        <li class="card card-nested card-skills">
+                            <div class="skill-level" rel="tooltip" title="Good" data-placement="left">
+                                <div class="skill-progress good"></div>
+                            </div>
+                            <div class="skill-info"> <strong>Team leading</strong>
+
+                                <div class="space-top labels"></div>
+                            </div>
+                        </li>
+                        <li class="card card-nested card-skills">
+                            <div class="skill-level" rel="tooltip" title="Good" data-placement="left">
+                                <div class="skill-progress good"></div>
+                            </div>
+                            <div class="skill-info"> <strong>Marketing</strong>
+
+                                <div class="space-top labels"> <span class="label label-keyword">Market researching</span>
+ <span class="label label-keyword">Inbound marketing</span>
+
+                                    <span
+                                    class="label label-keyword">Customer development</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="card card-nested card-skills">
+                            <div class="skill-level" rel="tooltip" title="Intermidiate" data-placement="left">
+                                <div class="skill-progress intermidiate"></div>
+                            </div>
+                            <div class="skill-info"> <strong>Busines</strong>
+
+                                <div class="space-top labels"> <span class="label label-keyword">Accounting</span>
+ <span class="label label-keyword">Finantial planning</span>
+
+                                    <span
+                                    class="label label-keyword">Human resources</span> <span class="label label-keyword">Employee motivation</span>
+
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+                <hr>
+                <section id="employment">
+                    <header> <span class="fa fa-lg fa-building"></span> 
+                         <h2>employment</h2>
+
+                    </header>
+                    <div>
+                         <h3><em>Founder</em>,
+    <a href="https://getgpu.github.io">GetGPU</a>
+    </h3>
+ <span class="tenure">2016-02 — Present</span>
+
+                        <p>
+                            <p>GetGPU is a service that give cheap and affordable gpu instances</p>
+                        </p>
+                        <ul>
+                            <li>Participated in development of Minimal Vialible Product</li>
+                        </ul>
+                    </div>
+                    <div>
+                         <h3><em>Founder</em>,
+    <a href="https://flonotes.minorityapp.com">Flownotes</a>
+    </h3>
+ <span class="tenure">2016-12 — Present</span>
+
+                        <p>
+                            <p>Online notepad with dynamic content recognition and deep content type
+                                interactions</p>
+                        </p>
+                        <ul>
+                            <li>Performed market researching based on internal</li>
+                            <li>Initiated early customer acqusition</li>
+                        </ul>
+                    </div>
+                    <div>
+                         <h3><em>Full stack developer</em>,
+    <a href="https://flonotes.minorityapp.com">Flownotes</a>
+    </h3>
+ <span class="tenure">2016-12 — Present</span>
+
+                        <p>
+                            <p>Online notepad with dynamic content recognition and deep content type
+                                interactions</p>
+                        </p>
+                        <ul>
+                            <li>Participated in development of Minimal Vialible Product</li>
+                            <li>Performed testing for various types of product&#39;s components</li>
+                            <li>Wrote initial user/developer documentation, code styles, design guide</li>
+                        </ul>
+                    </div>
+                    <div>
+                         <h3><em>Software enginer</em>,
+    <a href="https://minorityapp.com">Minority</a>
+    </h3>
+ <span class="tenure">2015-12 — Present</span>
+
+                        <p>
+                            <p>Workflow managment platform that helps people to describe their daily
+                                activities and to automate routine tasks</p>
+                        </p>
+                        <ul>
+                            <li>Worked boilerplate development</li>
+                            <li>Hiring external developers for delegation development activities</li>
+                            <li>Preformed testing for various types of product&#39;s components</li>
+                            <li>Wrote initial user/developer documentation, code styles, design guide</li>
+                        </ul>
+                    </div>
+                    <div>
+                         <h3><em>Founder</em>,
+    <a href="https://minorityapp.com">Minority</a>
+    </h3>
+ <span class="tenure">2015-12 — Present</span>
+
+                        <p>
+                            <p>Workflow managment platform that helps people to describe their daily
+                                activities and to automate routine tasks</p>
+                        </p>
+                        <ul>
+                            <li>Identified opportunity to develop those type of platform</li>
+                            <li>Preformed initial customer acquisitions</li>
+                            <li>Researched several effective marketing channels that specific to this
+                                type of products</li>
+                            <li>Organized building of sales team</li>
+                            <li>Constantly searched for partnership with big players on various events
+                                and by direct proposition</li>
+                            <li>Organized initial support and recurring customer stream</li>
+                        </ul>
+                    </div>
+                    <div>
+                         <h3><em>Upwork</em>,
+    <a href="http://upwork.com">Software enginer</a>
+    </h3>
+ <span class="tenure">2015-10 — Present</span>
+
+                        <p></p>
+                        <ul>
+                            <li>Build large-scale web applications and mobile-first websites using JavaScript,
+                                React, AngularJS, and Java/Scala</li>
+                            <li>Researched and implemented new technologies including isomorphic JavaScript
+                                and MVC frameworks</li>
+                            <li>Collaborated closely with designers, copywriters, business stakeholders,
+                                and other developers</li>
+                            <li>Was a representative between business stakeholders and developers</li>
+                        </ul>
+                    </div>
+                    <div>
+                         <h3><em>Software enginer</em>,
+    <a href="http://stampsy.com">Stampsy</a>
+    </h3>
+ <span class="tenure">2015-06 — 2015-10</span>
+
+                        <p>
+                            <p>A single place to share, curate and discover visual content that tells
+                                a story.</p>
+                        </p>
+                        <ul>
+                            <li>Created new React components, and contributed to legacy architecture</li>
+                            <li>Designed interface mockups, web forms, and information architecture</li>
+                            <li>Wrote HTML, CSS, JS, and TypeScript code for front-end</li>
+                            <li>Tested, revised, and deployed code. Found and resolved Section 508 compliance
+                                issues</li>
+                            <li>Wrote internal and user-facing documentation, and led document reorganization
+                                project</li>
+                        </ul>
+                    </div>
+                    <div>
+                         <h3><em>Software enginer</em>,
+    <a href="https://2gis.ru">2GIS</a>
+    </h3>
+ <span class="tenure">2015-05 — 2015-08</span>
+
+                        <p>
+                            <p>2GIS is a free business listings with a city map..</p>
+                        </p>
+                        <ul>
+                            <li>Improved user experience and user interaction on client-side</li>
+                            <li>Bu using plain modular javascript</li>
+                            <li>Created rich, flexible, standards-compliant websites using Ruby on Rails
+                                and hand-coded HTML5, CSS3, and JavaScript</li>
+                        </ul>
+                    </div>
+                    <div>
+                         <h3><em>Software enginer</em>,
+    Hochuli
+    </h3>
+ <span class="tenure">2015-03 — 2015-05</span>
+
+                        <p>
+                            <p>Service for collecting items around all internet marketplaces where users
+                                can bookmark any item and recieve price updates</p>
+                        </p>
+                        <ul>
+                            <li>Created rich, flexible, standards-compliant websites using Ruby on Rails
+                                and hand-coded HTML5, CSS3, and JavaScript</li>
+                        </ul>
+                    </div>
+                    <div>
+                         <h3><em>Software enginer</em>,
+    Knigipodarki
+    </h3>
+ <span class="tenure">2015-01 — 2015-03</span>
+
+                        <p>
+                            <p>Online book store with referal features for recuring customers</p>
+                        </p>
+                        <ul>
+                            <li>Develop a rich, responsive back-end, building from the ground up using
+                                Ruby on Rails</li>
+                            <li>Collaborated with programmers, the CEO, and partner companies to resolve
+                                issues. Wrote documentation</li>
+                        </ul>
+                    </div>
+                    <div>
+                         <h3><em>Software enginer</em>,
+    <a href="http://dextra.ru">Dextra</a>
+    </h3>
+ <span class="tenure">2013-12 — 2014-12</span>
+
+                        <p>
+                            <p>One of major local web agency in the region</p>
+                        </p>
+                        <ul>
+                            <li>Develop a rich, responsive back-end, building from the ground up using
+                                Ruby on Rails</li>
+                            <li>Collaborated with programmers, the CEO, and partner companies to resolve
+                                issues. Wrote documentation</li>
+                            <li>Developed more than 20 web projects for different types of customers</li>
+                            <li>Supported projects with existing codebases and preformed small changes
+                                based on customer&#39;s needs</li>
+                            <li>Worked on routine tasks that represented on several technologies included
+                                Javascript and PHP/Python</li>
+                        </ul>
+                    </div>
+                </section>
+                <hr>
+                <section id="education">
+                    <header> <span class="fa fa-lg fa-mortar-board"></span> 
+                         <h2>education</h2>
+
+                    </header>
+                    <div>
+                        
+<h3>
+RBIM Russian-british institute of managment
+</h3>
+
+<span class="tenure">2008-06 — 2011-01</span>
+
+                    </div>
+                    <div>
+                        
+<h3>
+CSU Chel state university
+</h3>
+
+<span class="tenure">2011-06 — 2015-07</span>
+
+                    </div>
+                </section>
+                <hr>
+                <section id="recognition">
+                    <header> <span class="fa fa-lg fa-trophy"></span> 
+                         <h2>recognition</h2>
+
+                    </header>
+                    <div>
+                         <h3><em>Design of Computer Programs</em>, Udacity</h3>
+ <span class="tenure">2014</span>
+
+                        <p><a href="https://www.udacity.com/course/design-of-computer-programs--cs212">https://www.udacity.com/course/design-of-computer-programs--cs212</a>
+                        </p>
+                    </div>
+                    <div>
+                         <h3><em>Intro to Algorithms</em>, Udacity</h3>
+ <span class="tenure">2014</span>
+
+                        <p><a href="https://www.udacity.com/course/intro-to-algorithms--cs215">https://www.udacity.com/course/intro-to-algorithms--cs215</a>
+                        </p>
+                    </div>
+                    <div>
+                         <h3><em>Computability, Complexity &amp;amp; Algorithms</em>, Udacity</h3>
+ <span class="tenure">2014</span>
+
+                        <p><a href="https://www.udacity.com/course/computability-complexity-algorithms--ud061">https://www.udacity.com/course/computability-complexity-algorithms--ud061</a>
+                        </p>
+                    </div>
+                    <div>
+                         <h3><em>Algorithms Specialization</em>, Coursera</h3>
+ <span class="tenure">2014</span>
+
+                        <p><a href="https://www.coursera.org/specializations/algorithms">https://www.coursera.org/specializations/algorithms</a>
+                        </p>
+                    </div>
+                    <div>
+                         <h3><em>Functional Programming Principles in Scala</em>, Coursera</h3>
+ <span class="tenure">2014</span>
+
+                        <p><a href="https://www.coursera.org/learn/progfun1">https://www.coursera.org/learn/progfun1</a>
+                        </p>
+                    </div>
+                    <div>
+                         <h3><em>Machine Learning</em>, Coursera</h3>
+ <span class="tenure">2014</span>
+
+                        <p><a href="https://www.coursera.org/learn/machine-learning">https://www.coursera.org/learn/machine-learning</a>
+                        </p>
+                    </div>
+                    <div>
+                         <h3><em>Algorithms on Graphs</em>, Coursera</h3>
+ <span class="tenure">2014</span>
+
+                        <p><a href="https://www.coursera.org/learn/algorithms-on-graphs">https://www.coursera.org/learn/algorithms-on-graphs</a>
+                        </p>
+                    </div>
+                    <div>
+                         <h3><em>Marketing specialization</em>, Coursera IE Business School</h3>
+ <span class="tenure">2014</span>
+
+                        <p><a href="https://www.udacity.com/course/design-of-computer-programs--cs212">https://www.udacity.com/course/design-of-computer-programs--cs212</a>
+                        </p>
+                    </div>
+                    <div>
+                         <h3><em>Entrepreneurship Specialization</em>, Coursera University of Pennsylvania</h3>
+ <span class="tenure">2014</span>
+
+                        <p><a href="https://www.udacity.com/course/design-of-computer-programs--cs212">https://www.udacity.com/course/design-of-computer-programs--cs212</a>
+                        </p>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </body>
+
+</html>

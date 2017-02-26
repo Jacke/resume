@@ -1,12 +1,6 @@
 {
   "basics": {
     "name": "Stanislav Sobolev",
-    "label": "Full stack developer, Marketing specialist",
-    "picture": "",
-    "email": "iamjacke@gmail.com",
-    "phone": "+7 (909) 086-04-51",
-    "website": "https://github.com/Jacke",
-    "summary": "Software Developer with 6 years history of productivity and successful project outcomes. Startup founder with expirience of bootstraping and scaling SaaS product without external investments to profitable company. Highly organized and independent; able to effectively coordinate tasks to accomplish projects with timeliness and creativity. Innovative, enthusiastic, and uncompromising work ethic. Functional programming - Rank 1 @ HackerRank",
     "location": {
       "address": "",
       "postalCode": "",
@@ -29,7 +23,7 @@
         "network": "HackerRank",
         "username": "iamjacke",
         "url": "https://www.hackerrank.com/iamjacke"
-      },      
+      },
       {
         "network": "Twitter",
         "username": "stanthoughts",
@@ -38,71 +32,71 @@
     ]
   },
   "work": [
-   {
+    {
       "company": "GetGPU",
-      "position": "Founder",
       "website": "https://getgpu.github.io",
+      "position": "Founder",
       "startDate": "2016-02-01",
       "summary": "GetGPU is a service that give cheap and affordable gpu instances",
       "highlights": [
-        "Participated in development of Minimal Vialible Product" 
+        "Participated in development of Minimal Vialible Product"
       ]
-    },  
-
+    },
     {
       "company": "Flownotes",
-      "position": "Founder",
       "website": "https://flonotes.minorityapp.com",
+      "position": "Founder",
       "startDate": "2016-12-05",
       "summary": "Online notepad with dynamic content recognition and deep content type interactions",
       "highlights": [
-        "Performed market researching based on internal", "Initiated early customer acqusition"]
+        "Performed market researching based on internal",
+        "Initiated early customer acqusition"
+      ]
     },
-   {
+    {
       "company": "Flownotes",
-      "position": "Full stack developer",
       "website": "https://flonotes.minorityapp.com",
+      "position": "Full stack developer",
       "startDate": "2016-12-05",
       "summary": "Online notepad with dynamic content recognition and deep content type interactions",
       "highlights": [
         "Participated in development of Minimal Vialible Product",
         "Performed testing for various types of product's components",
         "Wrote initial user/developer documentation, code styles, design guide"
-     ]
-    },    
-
+      ]
+    },
     {
       "company": "Minority",
-      "position": "Software enginer",
       "website": "https://minorityapp.com",
+      "position": "Software enginer",
       "startDate": "2015-12-01",
       "summary": "Workflow managment platform that helps people to describe their daily activities and to automate routine tasks",
       "highlights": [
-        "Worked boilerplate development", 
-        "Hiring external developers for delegation development activities", 
-        "Preformed testing for various types of product's components", 
+        "Worked boilerplate development",
+        "Hiring external developers for delegation development activities",
+        "Preformed testing for various types of product's components",
         "Wrote initial user/developer documentation, code styles, design guide"
       ]
-    },  
+    },
     {
       "company": "Minority",
-      "position": "Founder",
       "website": "https://minorityapp.com",
+      "position": "Founder",
       "startDate": "2015-12-01",
       "summary": "Workflow managment platform that helps people to describe their daily activities and to automate routine tasks",
       "highlights": [
-       "Identified opportunity to develop those type of platform",
-        "Preformed initial customer acquisitions", 
+        "Identified opportunity to develop those type of platform",
+        "Preformed initial customer acquisitions",
         "Researched several effective marketing channels that specific to this type of products",
-        "Organized building of sales team", 
+        "Organized building of sales team",
         "Constantly searched for partnership with big players on various events and by direct proposition",
         "Organized initial support and recurring customer stream"
       ]
-    },    
+    },
     {
       "company": "Software enginer",
-      "position": "Upwork",
       "website": "http://upwork.com",
+      "position": "Upwork",
       "startDate": "2015-10-01",
       "summary": "",
       "highlights": [
@@ -111,50 +105,50 @@
         "Collaborated closely with designers, copywriters, business stakeholders, and other developers",
         "Was a representative between business stakeholders and developers"
       ]
-    },    
+    },
     {
       "company": "Stampsy",
-      "position": "Software enginer",
       "website": "http://stampsy.com",
+      "position": "Software enginer",
       "startDate": "2015-06-01",
       "endDate": "2015-10-01",
       "summary": "A single place to share, curate and discover visual content that tells a story.",
       "highlights": [
-       "Created new React components, and contributed to legacy architecture",
-       "Designed interface mockups, web forms, and information architecture",
-       "Wrote HTML, CSS, JS, and TypeScript code for front-end",
-       "Tested, revised, and deployed code. Found and resolved Section 508 compliance issues",
-       "Wrote internal and user-facing documentation, and led document reorganization project"
+        "Created new React components, and contributed to legacy architecture",
+        "Designed interface mockups, web forms, and information architecture",
+        "Wrote HTML, CSS, JS, and TypeScript code for front-end",
+        "Tested, revised, and deployed code. Found and resolved Section 508 compliance issues",
+        "Wrote internal and user-facing documentation, and led document reorganization project"
       ]
-    },        
+    },
     {
       "company": "2GIS",
-      "position": "Software enginer",
       "website": "https://2gis.ru",
+      "position": "Software enginer",
       "startDate": "2015-05-11",
       "endDate": "2015-08-11",
       "summary": "2GIS is a free business listings with a city map..",
       "highlights": [
-       "Improved user experience and user interaction on client-side",
+        "Improved user experience and user interaction on client-side",
         "Bu using plain modular javascript",
         "Created rich, flexible, standards-compliant websites using Ruby on Rails and hand-coded HTML5, CSS3, and JavaScript"
       ]
-    },    
+    },
     {
       "company": "Hochuli",
-      "position": "Software enginer",
       "website": "",
+      "position": "Software enginer",
       "startDate": "2015-03-17",
       "endDate": "2015-05-01",
       "summary": "Service for collecting items around all internet marketplaces where users can bookmark any item and recieve price updates",
       "highlights": [
         "Created rich, flexible, standards-compliant websites using Ruby on Rails and hand-coded HTML5, CSS3, and JavaScript"
       ]
-    },    
+    },
     {
       "company": "Knigipodarki",
-      "position": "Software enginer",
       "website": "",
+      "position": "Software enginer",
       "startDate": "2015-01-16",
       "endDate": "2015-03-01",
       "summary": "Online book store with referal features for recuring customers",
@@ -165,78 +159,41 @@
     },
     {
       "company": "Dextra",
-      "position": "Software enginer",
       "website": "http://dextra.ru",
+      "position": "Software enginer",
       "startDate": "2013-12-01",
       "endDate": "2014-12-01",
       "summary": "One of major local web agency in the region",
       "highlights": [
-
         "Develop a rich, responsive back-end, building from the ground up using Ruby on Rails",
         "Collaborated with programmers, the CEO, and partner companies to resolve issues. Wrote documentation",
-       "Developed more than 20 web projects for different types of customers",
+        "Developed more than 20 web projects for different types of customers",
         "Supported projects with existing codebases and preformed small changes based on customer's needs",
         "Worked on routine tasks that represented on several technologies included Javascript and PHP/Python"
       ]
-    }        
-  ],
-
-  "education": [
-    {"institution":"RBIM Russian-british institute of managment",
-     "area":"Computer Science",
-     "studyType": "Bachelor",
-     "startDate": "2008-06-01",
-     "endDate": "2011-01-01",
-     "gpa": "4.5"        
-    },
-    {"institution": "CSU Chel state university",
-      "area": "Business informatics",
-      "studyType": "Master",
-      "startDate": "2011-06-01",
-      "endDate": "2015-07-01",
-      "gpa": "4.3"
     }
   ],
-  "awards": [
-              {"title": "Design of Computer Programs",
-              "awarder": "Udacity",
-              "date": "2014-11-01",
-              "summary": "https://www.udacity.com/course/design-of-computer-programs--cs212"},
-              { "title": "Intro to Algorithms",
-              "awarder": "Udacity",
-              "date": "2014-11-01",
-              "summary": "https://www.udacity.com/course/intro-to-algorithms--cs215"},
-              { "title": "Computability, Complexity & Algorithms",
-              "awarder": "Udacity",
-              "date": "2014-11-01",
-              "summary": "https://www.udacity.com/course/computability-complexity-algorithms--ud061"},
-              {"title":"Algorithms Specialization",
-              "awarder": "Coursera",
-              "date": "2014-11-01",
-              "summary": "https://www.coursera.org/specializations/algorithms"},
-              {"title":"Functional Programming Principles in Scala",
-              "awarder": "Coursera",
-              "date": "2014-11-01",
-              "summary": "https://www.coursera.org/learn/progfun1"},
-              {"title":"Machine Learning",
-              "awarder": "Coursera",
-              "date": "2014-11-01",
-              "summary": "https://www.coursera.org/learn/machine-learning"},
-              {"title":"Algorithms on Graphs",
-              "awarder": "Coursera",
-              "date": "2014-11-01",
-              "summary": "https://www.coursera.org/learn/algorithms-on-graphs"},
-              { "title": "Marketing specialization",
-              "awarder": "Coursera IE Business School",
-              "date": "2014-11-01",
-              "summary": "https://www.udacity.com/course/design-of-computer-programs--cs212"},
-              { "title": "Entrepreneurship Specialization",
-              "awarder": "Coursera University of Pennsylvania",
-              "date": "2014-11-01",
-              "summary": "https://www.udacity.com/course/design-of-computer-programs--cs212"}
+  "education": [
+    {
+      "institution": "RBIM Russian-british institute of managment",
+      "gpa": "4.5",
+      "startDate": "2008-06-01",
+      "endDate": "2011-01-01",
+      "area": "Computer Science",
+      "studyType": "Bachelor"
+    },
+    {
+      "institution": "CSU Chel state university",
+      "gpa": "4.3",
+      "startDate": "2011-06-01",
+      "endDate": "2015-07-01",
+      "area": "Business informatics",
+      "studyType": "Master"
+    }
   ],
   "skills": [
-    {"name": "Software Enginering",
+    {
+      "name": "Software Enginering",
       "level": "Master",
       "keywords": [
         "Javascript",
@@ -246,7 +203,8 @@
         "Algorithms"
       ]
     },
-   {"name": "Mobile Software Enginering",
+    {
+      "name": "Mobile Software Enginering",
       "level": "Pre-Intermidiate",
       "keywords": [
         "Swift/iOS",
@@ -254,8 +212,9 @@
         "React Native",
         "Mobile testing"
       ]
-    },    
-    {"name": "Data Science",
+    },
+    {
+      "name": "Data Science",
       "level": "Intermidiate",
       "keywords": [
         "Machnine learning",
@@ -263,11 +222,13 @@
         "Hadoop",
         "Spark"
       ]
-    },    
-   {"name": "Team leading",
+    },
+    {
+      "name": "Team leading",
       "level": "Good"
-    },    
-    {"name": "Marketing",
+    },
+    {
+      "name": "Marketing",
       "level": "Good",
       "keywords": [
         "Market researching",
@@ -275,7 +236,8 @@
         "Customer development"
       ]
     },
-   {"name": "Busines",
+    {
+      "name": "Busines",
       "level": "Intermidiate",
       "keywords": [
         "Accounting",
@@ -285,12 +247,70 @@
       ]
     }
   ],
+  "awards": [
+    {
+      "title": "Design of Computer Programs",
+      "date": "2014-11-01",
+      "awarder": "Udacity",
+      "summary": "https://www.udacity.com/course/design-of-computer-programs--cs212"
+    },
+    {
+      "title": "Intro to Algorithms",
+      "date": "2014-11-01",
+      "awarder": "Udacity",
+      "summary": "https://www.udacity.com/course/intro-to-algorithms--cs215"
+    },
+    {
+      "title": "Computability, Complexity & Algorithms",
+      "date": "2014-11-01",
+      "awarder": "Udacity",
+      "summary": "https://www.udacity.com/course/computability-complexity-algorithms--ud061"
+    },
+    {
+      "title": "Algorithms Specialization",
+      "date": "2014-11-01",
+      "awarder": "Coursera",
+      "summary": "https://www.coursera.org/specializations/algorithms"
+    },
+    {
+      "title": "Functional Programming Principles in Scala",
+      "date": "2014-11-01",
+      "awarder": "Coursera",
+      "summary": "https://www.coursera.org/learn/progfun1"
+    },
+    {
+      "title": "Machine Learning",
+      "date": "2014-11-01",
+      "awarder": "Coursera",
+      "summary": "https://www.coursera.org/learn/machine-learning"
+    },
+    {
+      "title": "Algorithms on Graphs",
+      "date": "2014-11-01",
+      "awarder": "Coursera",
+      "summary": "https://www.coursera.org/learn/algorithms-on-graphs"
+    },
+    {
+      "title": "Marketing specialization",
+      "date": "2014-11-01",
+      "awarder": "Coursera IE Business School",
+      "summary": "https://www.udacity.com/course/design-of-computer-programs--cs212"
+    },
+    {
+      "title": "Entrepreneurship Specialization",
+      "date": "2014-11-01",
+      "awarder": "Coursera University of Pennsylvania",
+      "summary": "https://www.udacity.com/course/design-of-computer-programs--cs212"
+    }
+  ],
   "languages": [
-    {"language": "English",
+    {
+      "language": "English",
       "fluency": "Fluent speaker"
     },
-    {"language": "Russian",
+    {
+      "language": "Russian",
       "fluency": "Native speaker"
-    }    
+    }
   ]
 }
