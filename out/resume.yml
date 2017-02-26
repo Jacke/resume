@@ -117,7 +117,6 @@ employment:
       summary: 'Service for collecting items around all internet marketplaces where users can bookmark any item and recieve price updates'
       start: '2015-03-17'
       end: '2015-05-01'
-      url: ""
       keywords: []
       highlights:
         - 'Created rich, flexible, standards-compliant websites using Ruby on Rails and hand-coded HTML5, CSS3, and JavaScript'
@@ -127,7 +126,6 @@ employment:
       summary: 'Online book store with referal features for recuring customers'
       start: '2015-01-16'
       end: '2015-03-01'
-      url: ""
       keywords: []
       highlights:
         - 'Develop a rich, responsive back-end, building from the ground up using Ruby on Rails'
