@@ -1,23 +1,62 @@
 {
   "basics": {
+    "info": {
+      "label": "Senior Developer",
+      "characterClass": "Programmer",
+      "brief": "**Imaginary full-stack software developer with 6+ years industry experience** specializing in cloud-driven web applications and middleware. A native of southern CA, Jane enjoys hiking, mystery novels, and the company of Rufus, her two year old beagle."
+    },
+    "contact": {
+      "website": "http://janef.me/blog",
+      "phone": "1-650-999-7777",
+      "email": "jdoe@onecoolstartup.io",
+      "other": [
+        {
+          "label": "Home Phone",
+          "flavor": "phone",
+          "value": "1-650-999-4321"
+        },
+        {
+          "label": "Work Phone",
+          "flavor": "phone",
+          "value": "1-650-777-1234"
+        },
+        {
+          "label": "Personal Email",
+          "flavor": "email",
+          "value": "jane@janef.me"
+        }
+      ]
+    },
     "name": "Stanislav Sobolev",
-    "label": "Full stack developer, Marketing specialist",
+    "description": "Software Developer with 6 years history of productivity and successful project outcomes. Startup founder with expirience of bootstraping and scaling SaaS product without external investments to profitable company. Highly organized and independent; able to effectively coordinate tasks to accomplish projects with timeliness and creativity. Innovative, enthusiastic, and uncompromising work ethic. Functional programming - Rank 1 @ HackerRank",
     "summary": "Software Developer with 6 years history of productivity and successful project outcomes. Startup founder with expirience of bootstraping and scaling SaaS product without external investments to profitable company. Highly organized and independent; able to effectively coordinate tasks to accomplish projects with timeliness and creativity. Innovative, enthusiastic, and uncompromising work ethic. Functional programming - Rank 1 @ HackerRank",
-    "phone": "+7 (909) 086-04-51",
-    "email": "iamjacke@gmail.com",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "",
+      "countryCode": "",
+      "region": ""
+    },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "stanthoughts",
-        "url": "https://twitter.com/stanthoughts"
+        "network": "Github",
+        "username": "Jacke",
+        "url": "https://github.com/Jacke"
       },
       {
         "network": "LinkedIn",
+        "username": "jacke1",
         "url": "https://www.linkedin.com/in/jacke1"
       },
       {
         "network": "HackerRank",
+        "username": "iamjacke",
         "url": "https://www.hackerrank.com/iamjacke"
+      },
+      {
+        "network": "Twitter",
+        "username": "stanthoughts",
+        "url": "https://twitter.com/stanthoughts"
       }
     ]
   },
@@ -26,7 +65,7 @@
       "company": "Flownotes",
       "website": "https://flonotes.minorityapp.com",
       "position": "Full stack developer",
-      "startDate": "2016-12",
+      "startDate": "2016-12-05",
       "summary": "Online notepad with dynamic content recognition and deep content type interactions",
       "highlights": [
         "Participated in development of Minimal Vialible Product",
@@ -38,7 +77,7 @@
       "company": "Flownotes",
       "website": "https://flonotes.minorityapp.com",
       "position": "Founder",
-      "startDate": "2016-12",
+      "startDate": "2016-12-05",
       "summary": "Online notepad with dynamic content recognition and deep content type interactions",
       "highlights": [
         "Performed market researching based on internal",
@@ -49,7 +88,7 @@
       "company": "GetGPU",
       "website": "https://getgpu.github.io",
       "position": "Founder",
-      "startDate": "2016-02",
+      "startDate": "2016-02-01",
       "summary": "GetGPU is a service that give cheap and affordable gpu instances",
       "highlights": [
         "Participated in development of Minimal Vialible Product"
@@ -59,7 +98,7 @@
       "company": "Minority",
       "website": "https://minorityapp.com",
       "position": "Software enginer",
-      "startDate": "2015-12",
+      "startDate": "2015-12-01",
       "summary": "Workflow managment platform that helps people to describe their daily activities and to automate routine tasks",
       "highlights": [
         "Worked boilerplate development",
@@ -72,6 +111,7 @@
       "company": "Minority",
       "website": "https://minorityapp.com",
       "position": "Founder",
+      "startDate": "2015-12-01",
       "summary": "Workflow managment platform that helps people to describe their daily activities and to automate routine tasks",
       "highlights": [
         "Identified opportunity to develop those type of platform",
@@ -86,10 +126,10 @@
       "company": "Software enginer",
       "website": "http://upwork.com",
       "position": "Upwork",
-      "startDate": "2015-10",
+      "startDate": "2015-10-01",
       "summary": "",
       "highlights": [
-        "Build large-scale web applications and mobile-first urls using JavaScript, React, AngularJS, and Java/Scala",
+        "Build large-scale web applications and mobile-first websites using JavaScript, React, AngularJS, and Java/Scala",
         "Researched and implemented new technologies including isomorphic JavaScript and MVC frameworks",
         "Collaborated closely with designers, copywriters, business stakeholders, and other developers",
         "Was a representative between business stakeholders and developers"
@@ -99,8 +139,8 @@
       "company": "Stampsy",
       "website": "http://stampsy.com",
       "position": "Software enginer",
-      "startDate": "2015-06",
-      "endDate": "2015-10",
+      "startDate": "2015-06-01",
+      "endDate": "2015-10-01",
       "summary": "A single place to share, curate and discover visual content that tells a story.",
       "highlights": [
         "Created new React components, and contributed to legacy architecture",
@@ -114,30 +154,30 @@
       "company": "2GIS",
       "website": "https://2gis.ru",
       "position": "Software enginer",
-      "startDate": "2015-05",
-      "endDate": "2015-08",
+      "startDate": "2015-05-11",
+      "endDate": "2015-08-11",
       "summary": "2GIS is a free business listings with a city map..",
       "highlights": [
         "Improved user experience and user interaction on client-side",
         "Bu using plain modular javascript",
-        "Created rich, flexible, standards-compliant urls using Ruby on Rails and hand-coded HTML5, CSS3, and JavaScript"
+        "Created rich, flexible, standards-compliant websites using Ruby on Rails and hand-coded HTML5, CSS3, and JavaScript"
       ]
     },
     {
       "company": "Hochuli",
       "position": "Software enginer",
-      "startDate": "2015-03",
-      "endDate": "2015-05",
+      "startDate": "2015-03-17",
+      "endDate": "2015-05-01",
       "summary": "Service for collecting items around all internet marketplaces where users can bookmark any item and recieve price updates",
       "highlights": [
-        "Created rich, flexible, standards-compliant urls using Ruby on Rails and hand-coded HTML5, CSS3, and JavaScript"
+        "Created rich, flexible, standards-compliant websites using Ruby on Rails and hand-coded HTML5, CSS3, and JavaScript"
       ]
     },
     {
       "company": "Knigipodarki",
       "position": "Software enginer",
-      "startDate": "2015-01",
-      "endDate": "2015-03",
+      "startDate": "2015-01-16",
+      "endDate": "2015-03-01",
       "summary": "Online book store with referal features for recuring customers",
       "highlights": [
         "Develop a rich, responsive back-end, building from the ground up using Ruby on Rails",
@@ -148,8 +188,8 @@
       "company": "Dextra",
       "website": "http://dextra.ru",
       "position": "Software enginer",
-      "startDate": "2013-12",
-      "endDate": "2014-12",
+      "startDate": "2013-12-01",
+      "endDate": "2014-12-01",
       "summary": "One of major local web agency in the region",
       "highlights": [
         "Develop a rich, responsive back-end, building from the ground up using Ruby on Rails",
@@ -164,22 +204,24 @@
     {
       "institution": "CSU Chel state university",
       "gpa": "4.3",
-      "courses": [],
-      "startDate": "2011-06",
-      "endDate": "2015-07"
+      "startDate": "2011-06-01",
+      "endDate": "2015-07-01",
+      "area": "Business informatics",
+      "studyType": "Master"
     },
     {
       "institution": "RBIM Russian-british institute of managment",
       "gpa": "4.5",
-      "courses": [],
-      "startDate": "008-06",
-      "endDate": "2011-01"
+      "startDate": "2008-06-01",
+      "endDate": "2011-01-01",
+      "area": "Computer Science",
+      "studyType": "Bachelor"
     }
   ],
   "skills": [
     {
       "name": "Software Enginering",
-      "level": "advanced",
+      "level": "Master",
       "keywords": [
         "Javascript",
         "TypeScript",
@@ -189,8 +231,18 @@
       ]
     },
     {
+      "name": "Mobile Software Enginering",
+      "level": "Pre-Intermidiate",
+      "keywords": [
+        "Swift/iOS",
+        "Android",
+        "React Native",
+        "Mobile testing"
+      ]
+    },
+    {
       "name": "Data Science",
-      "level": "beginner",
+      "level": "Intermidiate",
       "keywords": [
         "Machnine learning",
         "Optimization",
@@ -200,12 +252,11 @@
     },
     {
       "name": "Team leading",
-      "level": "good",
-      "keywords": []
+      "level": "Good"
     },
     {
       "name": "Marketing",
-      "level": "good",
+      "level": "Good",
       "keywords": [
         "Market researching",
         "Inbound marketing",
@@ -214,7 +265,7 @@
     },
     {
       "name": "Busines",
-      "level": "advanced",
+      "level": "Intermidiate",
       "keywords": [
         "Accounting",
         "Finantial planning",
@@ -226,59 +277,67 @@
   "awards": [
     {
       "title": "Design of Computer Programs",
-      "date": "2013",
-      "awarder": "Udacity"
+      "date": "2014-11-01",
+      "awarder": "Udacity",
+      "summary": "https://www.udacity.com/course/design-of-computer-programs--cs212"
     },
     {
       "title": "Intro to Algorithms",
-      "date": "2013",
-      "awarder": "Udacity"
+      "date": "2014-11-01",
+      "awarder": "Udacity",
+      "summary": "https://www.udacity.com/course/intro-to-algorithms--cs215"
     },
     {
-      "title": "Computability, Complexity and Algorithms",
-      "date": "2013",
-      "awarder": "Udacity"
+      "title": "Computability, Complexity & Algorithms",
+      "date": "2014-11-01",
+      "awarder": "Udacity",
+      "summary": "https://www.udacity.com/course/computability-complexity-algorithms--ud061"
     },
     {
       "title": "Algorithms Specialization",
-      "date": "2014",
-      "awarder": "Coursera"
+      "date": "2014-11-01",
+      "awarder": "Coursera",
+      "summary": "https://www.coursera.org/specializations/algorithms"
     },
     {
       "title": "Functional Programming Principles in Scala",
-      "date": "2014",
-      "awarder": "Coursera"
+      "date": "2014-11-01",
+      "awarder": "Coursera",
+      "summary": "https://www.coursera.org/learn/progfun1"
     },
     {
       "title": "Machine Learning",
-      "date": "2015",
-      "awarder": "Coursera"
+      "date": "2014-11-01",
+      "awarder": "Coursera",
+      "summary": "https://www.coursera.org/learn/machine-learning"
     },
     {
       "title": "Algorithms on Graphs",
-      "date": "2015",
-      "awarder": "Coursera"
+      "date": "2014-11-01",
+      "awarder": "Coursera",
+      "summary": "https://www.coursera.org/learn/algorithms-on-graphs"
     },
     {
       "title": "Marketing specialization",
-      "date": "2016",
-      "awarder": "Coursera IE Business School"
+      "date": "2014-11-01",
+      "awarder": "Coursera IE Business School",
+      "summary": "https://www.udacity.com/course/design-of-computer-programs--cs212"
     },
     {
       "title": "Entrepreneurship Specialization",
-      "date": "2016",
-      "awarder": "Coursera University of Pennsylvania"
+      "date": "2014-11-01",
+      "awarder": "Coursera University of Pennsylvania",
+      "summary": "https://www.udacity.com/course/design-of-computer-programs--cs212"
     }
   ],
   "languages": [
     {
       "language": "English",
-      "level": "Fluent",
-      "years": 10
+      "fluency": "Fluent speaker"
     },
     {
       "language": "Russian",
-      "level": "Native"
+      "fluency": "Native speaker"
     }
   ]
 }

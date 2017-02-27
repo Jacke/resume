@@ -1,15 +1,14 @@
 Stanislav Sobolev
 ============
+Email: iamjacke@gmail.com
+Tel: +7 (909) 086-04-51
 
 
-
-
-
+Software Developer with 6 years history of productivity and successful project outcomes. Startup founder with expirience of bootstraping and scaling SaaS product without external investments to profitable company. Highly organized and independent; able to effectively coordinate tasks to accomplish projects with timeliness and creativity. Innovative, enthusiastic, and uncompromising work ethic. Functional programming - Rank 1 @ HackerRank
 
 ## SKILLS
 
   - Software Enginering: Javascript TypeScript Java Scala Algorithms 
-  - Mobile Software Enginering: Swift/iOS Android React Native Mobile testing 
   - Data Science: Machnine learning Optimization Hadoop Spark 
   - Team leading: 
   - Marketing: Market researching Inbound marketing Customer development 
@@ -17,10 +16,12 @@ Stanislav Sobolev
 
 ## EMPLOYMENT
 
-### *Founder*, [GetGPU](https://getgpu.github.io) (2016-02 — Present)
+### *Full stack developer*, [Flownotes](https://flonotes.minorityapp.com) (2016-12 — Present)
 
-GetGPU is a service that give cheap and affordable gpu instances
+Online notepad with dynamic content recognition and deep content type interactions
   - Participated in development of Minimal Vialible Product
+  - Performed testing for various types of product's components
+  - Wrote initial user/developer documentation, code styles, design guide
 
 ### *Founder*, [Flownotes](https://flonotes.minorityapp.com) (2016-12 — Present)
 
@@ -28,12 +29,10 @@ Online notepad with dynamic content recognition and deep content type interactio
   - Performed market researching based on internal
   - Initiated early customer acqusition
 
-### *Full stack developer*, [Flownotes](https://flonotes.minorityapp.com) (2016-12 — Present)
+### *Founder*, [GetGPU](https://getgpu.github.io) (2016-02 — Present)
 
-Online notepad with dynamic content recognition and deep content type interactions
+GetGPU is a service that give cheap and affordable gpu instances
   - Participated in development of Minimal Vialible Product
-  - Performed testing for various types of product's components
-  - Wrote initial user/developer documentation, code styles, design guide
 
 ### *Software enginer*, [Minority](https://minorityapp.com) (2015-12 — Present)
 
@@ -43,7 +42,7 @@ Workflow managment platform that helps people to describe their daily activities
   - Preformed testing for various types of product's components
   - Wrote initial user/developer documentation, code styles, design guide
 
-### *Founder*, [Minority](https://minorityapp.com) (2015-12 — Present)
+### *Founder*, [Minority](https://minorityapp.com) (??? — Present)
 
 Workflow managment platform that helps people to describe their daily activities and to automate routine tasks
   - Identified opportunity to develop those type of platform
@@ -56,7 +55,7 @@ Workflow managment platform that helps people to describe their daily activities
 ### *Upwork*, [Software enginer](http://upwork.com) (2015-10 — Present)
 
 
-  - Build large-scale web applications and mobile-first websites using JavaScript, React, AngularJS, and Java/Scala
+  - Build large-scale web applications and mobile-first urls using JavaScript, React, AngularJS, and Java/Scala
   - Researched and implemented new technologies including isomorphic JavaScript and MVC frameworks
   - Collaborated closely with designers, copywriters, business stakeholders, and other developers
   - Was a representative between business stakeholders and developers
@@ -75,12 +74,12 @@ A single place to share, curate and discover visual content that tells a story.
 2GIS is a free business listings with a city map..
   - Improved user experience and user interaction on client-side
   - Bu using plain modular javascript
-  - Created rich, flexible, standards-compliant websites using Ruby on Rails and hand-coded HTML5, CSS3, and JavaScript
+  - Created rich, flexible, standards-compliant urls using Ruby on Rails and hand-coded HTML5, CSS3, and JavaScript
 
 ### *Software enginer*, Hochuli (2015-03 — 2015-05)
 
 Service for collecting items around all internet marketplaces where users can bookmark any item and recieve price updates
-  - Created rich, flexible, standards-compliant websites using Ruby on Rails and hand-coded HTML5, CSS3, and JavaScript
+  - Created rich, flexible, standards-compliant urls using Ruby on Rails and hand-coded HTML5, CSS3, and JavaScript
 
 ### *Software enginer*, Knigipodarki (2015-01 — 2015-03)
 
@@ -102,15 +101,21 @@ One of major local web agency in the region
 
 ## EDUCATION
 
-### RBIM Russian-british institute of managment (2008-06 — 2011-01)
+### [CSU Chel state university](https://csu.ru/) (2011-06 — 2015-07)
 
 
 
-### CSU Chel state university (2011-06 — 2015-07)
+### [RBIM Russian-british institute of managment](https://rbim.ru) (2001-08 — 2011-01)
 
 
 
 
+
+## SAMPLES
+
+### [Flonotes Source Code](https://github.com/Empia/flownotes_chrome) (2017-01)
+
+A browser-based space shooter built on Three.js.
 
 
 
@@ -118,32 +123,23 @@ One of major local web agency in the region
 
 ## RECOGNITION
 
-### Design of Computer Programs, Udacity (Jan 2014)
-https://www.udacity.com/course/design-of-computer-programs--cs212
+### Design of Computer Programs, Udacity (Jan 2013)
 
-### Intro to Algorithms, Udacity (Jan 2014)
-https://www.udacity.com/course/intro-to-algorithms--cs215
+### Intro to Algorithms, Udacity (Jan 2013)
 
-### Computability, Complexity & Algorithms, Udacity (Jan 2014)
-https://www.udacity.com/course/computability-complexity-algorithms--ud061
+### Computability, Complexity and Algorithms, Udacity (Jan 2013)
 
 ### Algorithms Specialization, Coursera (Jan 2014)
-https://www.coursera.org/specializations/algorithms
 
 ### Functional Programming Principles in Scala, Coursera (Jan 2014)
-https://www.coursera.org/learn/progfun1
 
-### Machine Learning, Coursera (Jan 2014)
-https://www.coursera.org/learn/machine-learning
+### Machine Learning, Coursera (Jan 2015)
 
-### Algorithms on Graphs, Coursera (Jan 2014)
-https://www.coursera.org/learn/algorithms-on-graphs
+### Algorithms on Graphs, Coursera (Jan 2015)
 
-### Marketing specialization, Coursera IE Business School (Jan 2014)
-https://www.udacity.com/course/design-of-computer-programs--cs212
+### Marketing specialization, Coursera IE Business School (Jan 2016)
 
-### Entrepreneurship Specialization, Coursera University of Pennsylvania (Jan 2014)
-https://www.udacity.com/course/design-of-computer-programs--cs212
+### Entrepreneurship Specialization, Coursera University of Pennsylvania (Jan 2016)
 
 
 

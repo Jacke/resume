@@ -1,69 +1,93 @@
 name: 'Stanislav Sobolev'
-info:
 meta:
   format: FRESH@0.6.0
-  version: 0.1.0
-location:
-  city: ""
-  region: ""
-  country: ""
-  code: ""
-  address: ""
+  version: 0.4.0
+info:
+  characterClass: Programmer
+  label: 'Full stack developer, Marketing specialist'
+  brief: 'Software Developer with 6 years history of productivity and successful project outcomes. Startup founder with expirience of bootstraping and scaling SaaS product without external investments to profitable company. Highly organized and independent; able to effectively coordinate tasks to accomplish projects with timeliness and creativity. Innovative, enthusiastic, and uncompromising work ethic. Functional programming - Rank 1 @ HackerRank'
+contact:
+  email: iamjacke@gmail.com
+  phone: '+7 (909) 086-04-51'
+  url: 'https://github.com/Jacke'
+  other: []
+social:
+  -
+    label: Twitter
+    network: Twitter
+    user: stanthoughts
+    url: 'https://twitter.com/stanthoughts'
+  -
+    label: LinkedIn
+    network: LinkedIn
+    username: jacke1
+    url: 'https://www.linkedin.com/in/jacke1'
+  -
+    label: HackerRank
+    network: HackerRank
+    username: iamjacke
+    url: 'https://www.hackerrank.com/iamjacke'
 employment:
+  summary: '6+ years industry IT and software development experience.'
   history:
     -
-      position: Founder
-      employer: GetGPU
-      summary: 'GetGPU is a service that give cheap and affordable gpu instances'
-      current: true
-      start: '2016-02-01'
-      url: 'https://getgpu.github.io'
-      keywords: []
-      highlights:
-        - 'Participated in development of Minimal Vialible Product'
-    -
-      position: Founder
       employer: Flownotes
-      summary: 'Online notepad with dynamic content recognition and deep content type interactions'
-      current: true
-      start: '2016-12-05'
-      url: 'https://flonotes.minorityapp.com'
-      keywords: []
-      highlights:
-        - 'Performed market researching based on internal'
-        - 'Initiated early customer acqusition'
-    -
       position: 'Full stack developer'
-      employer: Flownotes
-      summary: 'Online notepad with dynamic content recognition and deep content type interactions'
-      current: true
-      start: '2016-12-05'
       url: 'https://flonotes.minorityapp.com'
-      keywords: []
+      start: 2016-12
+      summary: 'Online notepad with dynamic content recognition and deep content type interactions'
+      keywords:
+        - TypeScript
+        - React
+        - Redux
+        - WebSocket
+        - WebWorkers
       highlights:
         - 'Participated in development of Minimal Vialible Product'
         - 'Performed testing for various types of product''s components'
         - 'Wrote initial user/developer documentation, code styles, design guide'
     -
-      position: 'Software enginer'
-      employer: Minority
-      summary: 'Workflow managment platform that helps people to describe their daily activities and to automate routine tasks'
-      current: true
-      start: '2015-12-01'
-      url: 'https://minorityapp.com'
+      employer: Flownotes
+      position: Founder
+      url: 'https://flonotes.minorityapp.com'
+      start: 2016-12
+      summary: 'Online notepad with dynamic content recognition and deep content type interactions'
       keywords: []
+      highlights:
+        - 'Performed market researching based on internal'
+        - 'Initiated early customer acqusition'
+    -
+      employer: GetGPU
+      position: Founder
+      url: 'https://getgpu.github.io'
+      start: 2016-02
+      summary: 'GetGPU is a service that give cheap and affordable gpu instances'
+      keywords:
+        - Java
+        - Ansible
+      highlights:
+        - 'Participated in development of Minimal Vialible Product'
+    -
+      employer: Minority
+      position: 'Software enginer'
+      url: 'https://minorityapp.com'
+      start: 2015-12
+      summary: 'Workflow managment platform that helps people to describe their daily activities and to automate routine tasks'
+      keywords:
+        - Java
+        - Scala
+        - AngularJS
       highlights:
         - 'Worked boilerplate development'
         - 'Hiring external developers for delegation development activities'
         - 'Preformed testing for various types of product''s components'
         - 'Wrote initial user/developer documentation, code styles, design guide'
     -
-      position: Founder
       employer: Minority
-      summary: 'Workflow managment platform that helps people to describe their daily activities and to automate routine tasks'
-      current: true
-      start: '2015-12-01'
+      position: Founder
       url: 'https://minorityapp.com'
+      startDate: '2015-12-01'
+      summary: 'Workflow managment platform that helps people to describe their daily activities and to automate routine tasks'
       keywords: []
       highlights:
         - 'Identified opportunity to develop those type of platform'
@@ -73,26 +97,27 @@ employment:
         - 'Constantly searched for partnership with big players on various events and by direct proposition'
         - 'Organized initial support and recurring customer stream'
     -
-      position: Upwork
       employer: 'Software enginer'
-      summary: ""
-      current: true
-      start: '2015-10-01'
+      position: Upwork
       url: 'http://upwork.com'
-      keywords: []
+      start: 2015-10
+      summary: ""
       highlights:
-        - 'Build large-scale web applications and mobile-first websites using JavaScript, React, AngularJS, and Java/Scala'
+        - 'Build large-scale web applications and mobile-first urls using JavaScript, React, AngularJS, and Java/Scala'
         - 'Researched and implemented new technologies including isomorphic JavaScript and MVC frameworks'
         - 'Collaborated closely with designers, copywriters, business stakeholders, and other developers'
         - 'Was a representative between business stakeholders and developers'
     -
-      position: 'Software enginer'
       employer: Stampsy
-      summary: 'A single place to share, curate and discover visual content that tells a story.'
-      start: '2015-06-01'
-      end: '2015-10-01'
+      position: 'Software enginer'
       url: 'http://stampsy.com'
-      keywords: []
+      start: 2015-06
+      end: 2015-10
+      summary: 'A single place to share, curate and discover visual content that tells a story.'
+      keywords:
+        - JavaScript
+        - React
+        - Redux
       highlights:
         - 'Created new React components, and contributed to legacy architecture'
         - 'Designed interface mockups, web forms, and information architecture'
@@ -100,44 +125,53 @@ employment:
         - 'Tested, revised, and deployed code. Found and resolved Section 508 compliance issues'
         - 'Wrote internal and user-facing documentation, and led document reorganization project'
     -
-      position: 'Software enginer'
       employer: 2GIS
-      summary: '2GIS is a free business listings with a city map..'
-      start: '2015-05-11'
-      end: '2015-08-11'
+      position: 'Software enginer'
       url: 'https://2gis.ru'
-      keywords: []
+      start: 2015-05
+      end: 2015-08
+      summary: '2GIS is a free business listings with a city map..'
+      keywords:
+        - JavaScript
       highlights:
         - 'Improved user experience and user interaction on client-side'
         - 'Bu using plain modular javascript'
-        - 'Created rich, flexible, standards-compliant websites using Ruby on Rails and hand-coded HTML5, CSS3, and JavaScript'
+        - 'Created rich, flexible, standards-compliant urls using Ruby on Rails and hand-coded HTML5, CSS3, and JavaScript'
     -
-      position: 'Software enginer'
       employer: Hochuli
-      summary: 'Service for collecting items around all internet marketplaces where users can bookmark any item and recieve price updates'
-      start: '2015-03-17'
-      end: '2015-05-01'
-      keywords: []
-      highlights:
-        - 'Created rich, flexible, standards-compliant websites using Ruby on Rails and hand-coded HTML5, CSS3, and JavaScript'
-    -
       position: 'Software enginer'
+      start: 2015-03
+      end: 2015-05
+      keywords:
+        - RubyOnRails
+        - 'Web Scrapping'
+      summary: 'Service for collecting items around all internet marketplaces where users can bookmark any item and recieve price updates'
+      highlights:
+        - 'Created rich, flexible, standards-compliant urls using Ruby on Rails and hand-coded HTML5, CSS3, and JavaScript'
+    -
       employer: Knigipodarki
+      position: 'Software enginer'
+      start: 2015-01
+      end: 2015-03
+      keywords:
+        - RubyOnRails
+        - nginx
+        - 'SAP Integration'
       summary: 'Online book store with referal features for recuring customers'
-      start: '2015-01-16'
-      end: '2015-03-01'
-      keywords: []
       highlights:
         - 'Develop a rich, responsive back-end, building from the ground up using Ruby on Rails'
         - 'Collaborated with programmers, the CEO, and partner companies to resolve issues. Wrote documentation'
     -
-      position: 'Software enginer'
       employer: Dextra
-      summary: 'One of major local web agency in the region'
-      start: '2013-12-01'
-      end: '2014-12-01'
+      position: 'Software enginer'
       url: 'http://dextra.ru'
-      keywords: []
+      start: 2013-12
+      end: 2014-12
+      keywords:
+        - Django
+        - RubyOnRails
+        - Databases
+      summary: 'One of major local web agency in the region'
       highlights:
         - 'Develop a rich, responsive back-end, building from the ground up using Ruby on Rails'
         - 'Collaborated with programmers, the CEO, and partner companies to resolve issues. Wrote documentation'
@@ -145,29 +179,79 @@ employment:
         - 'Supported projects with existing codebases and preformed small changes based on customer''s needs'
         - 'Worked on routine tasks that represented on several technologies included Javascript and PHP/Python'
 education:
-  level: ""
+  summary: ""
+  level: degree
+  degree: BSCS
   history:
     -
-      institution: 'RBIM Russian-british institute of managment'
-      start: '2008-06-01'
-      end: '2011-01-01'
-      grade: '4.5'
-      summary: ""
-      area: 'Computer Science'
-      studyType: Bachelor
-    -
       institution: 'CSU Chel state university'
-      start: '2011-06-01'
-      end: '2015-07-01'
+      title: 'Business informatics'
+      url: 'https://csu.ru/'
+      start: 2011-06
+      end: 2015-07
       grade: '4.3'
       summary: ""
-      area: 'Business informatics'
-      studyType: Master
+      curriculum: []
+    -
+      institution: 'RBIM Russian-british institute of managment'
+      title: 'Computer Science'
+      url: 'https://rbim.ru'
+      start: 008-06
+      end: 2011-01
+      grade: '4.5'
+      summary: ""
+      curriculum: []
+recognition:
+  -
+    title: 'Design of Computer Programs'
+    from: Udacity
+    date: '2013'
+    event: 'https://www.udacity.com/course/design-of-computer-programs--cs212'
+  -
+    title: 'Intro to Algorithms'
+    from: Udacity
+    date: '2013'
+    event: 'https://www.udacity.com/course/intro-to-algorithms--cs215'
+  -
+    title: 'Computability, Complexity and Algorithms'
+    from: Udacity
+    date: '2013'
+    event: 'https://www.udacity.com/course/computability-complexity-algorithms--ud061'
+  -
+    title: 'Algorithms Specialization'
+    from: Coursera
+    date: '2014'
+    event: 'https://www.coursera.org/specializations/algorithms'
+  -
+    title: 'Functional Programming Principles in Scala'
+    from: Coursera
+    date: '2014'
+    event: 'https://www.coursera.org/learn/progfun1'
+  -
+    title: 'Machine Learning'
+    from: Coursera
+    date: '2015'
+    event: 'https://www.coursera.org/learn/machine-learning'
+  -
+    title: 'Algorithms on Graphs'
+    from: Coursera
+    date: '2015'
+    event: 'https://www.coursera.org/learn/algorithms-on-graphs'
+  -
+    title: 'Marketing specialization'
+    from: 'Coursera IE Business School'
+    date: '2016'
+    event: 'https://www.udacity.com/course/design-of-computer-programs--cs212'
+  -
+    title: 'Entrepreneurship Specialization'
+    from: 'Coursera University of Pennsylvania'
+    date: '2016'
+    event: 'https://www.udacity.com/course/design-of-computer-programs--cs212'
 skills:
   sets:
     -
       name: 'Software Enginering'
-      level: Master
+      level: advanced
       skills:
         - Javascript
         - TypeScript
@@ -175,16 +259,8 @@ skills:
         - Scala
         - Algorithms
     -
-      name: 'Mobile Software Enginering'
-      level: Pre-Intermidiate
-      skills:
-        - Swift/iOS
-        - Android
-        - 'React Native'
-        - 'Mobile testing'
-    -
       name: 'Data Science'
-      level: Intermidiate
+      level: beginner
       skills:
         - 'Machnine learning'
         - Optimization
@@ -192,93 +268,34 @@ skills:
         - Spark
     -
       name: 'Team leading'
-      level: Good
+      level: good
+      skills: []
     -
       name: Marketing
-      level: Good
+      level: good
       skills:
         - 'Market researching'
         - 'Inbound marketing'
         - 'Customer development'
     -
       name: Busines
-      level: Intermidiate
+      level: advanced
       skills:
         - Accounting
         - 'Finantial planning'
         - 'Human resources'
         - 'Employee motivation'
-recognition:
+samples:
   -
-    title: 'Design of Computer Programs'
-    date: '2014-11-01'
-    from: Udacity
-    summary: 'https://www.udacity.com/course/design-of-computer-programs--cs212'
-  -
-    title: 'Intro to Algorithms'
-    date: '2014-11-01'
-    from: Udacity
-    summary: 'https://www.udacity.com/course/intro-to-algorithms--cs215'
-  -
-    title: 'Computability, Complexity & Algorithms'
-    date: '2014-11-01'
-    from: Udacity
-    summary: 'https://www.udacity.com/course/computability-complexity-algorithms--ud061'
-  -
-    title: 'Algorithms Specialization'
-    date: '2014-11-01'
-    from: Coursera
-    summary: 'https://www.coursera.org/specializations/algorithms'
-  -
-    title: 'Functional Programming Principles in Scala'
-    date: '2014-11-01'
-    from: Coursera
-    summary: 'https://www.coursera.org/learn/progfun1'
-  -
-    title: 'Machine Learning'
-    date: '2014-11-01'
-    from: Coursera
-    summary: 'https://www.coursera.org/learn/machine-learning'
-  -
-    title: 'Algorithms on Graphs'
-    date: '2014-11-01'
-    from: Coursera
-    summary: 'https://www.coursera.org/learn/algorithms-on-graphs'
-  -
-    title: 'Marketing specialization'
-    date: '2014-11-01'
-    from: 'Coursera IE Business School'
-    summary: 'https://www.udacity.com/course/design-of-computer-programs--cs212'
-  -
-    title: 'Entrepreneurship Specialization'
-    date: '2014-11-01'
-    from: 'Coursera University of Pennsylvania'
-    summary: 'https://www.udacity.com/course/design-of-computer-programs--cs212'
-social:
-  -
-    label: Github
-    network: Github
-    url: 'https://github.com/Jacke'
-    user: Jacke
-  -
-    label: LinkedIn
-    network: LinkedIn
-    url: 'https://www.linkedin.com/in/jacke1'
-    user: jacke1
-  -
-    label: HackerRank
-    network: HackerRank
-    url: 'https://www.hackerrank.com/iamjacke'
-    user: iamjacke
-  -
-    label: Twitter
-    network: Twitter
-    url: 'https://twitter.com/stanthoughts'
-    user: stanthoughts
+    title: 'Flonotes Source Code'
+    summary: 'A browser-based space shooter built on Three.js.'
+    url: 'https://github.com/Empia/flownotes_chrome'
+    date: 2017-01
 languages:
   -
     language: English
-    fluency: 'Fluent speaker'
+    level: Fluent
+    years: 10
   -
     language: Russian
-    fluency: 'Native speaker'
+    level: Native
