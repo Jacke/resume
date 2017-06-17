@@ -8,7 +8,7 @@
   "info": {
     "characterClass": "Programmer",
     "label": "Full stack developer",
-    "brief": "Software Developer with 6+ years history of diverse industry experience. Startup founder with expirience of bootstraping and scaling SaaS product without external investments to profitable company. Highly organized and independent; able to effectively coordinate tasks to accomplish projects with timeliness and creativity. Innovative, enthusiastic, and uncompromising work ethic. Functional programming - Rank 1 @ HackerRank\n"
+    "brief": "Software Developer with 6+ years history of diverse industry expirience. Startup founder with expirience of bootstraping and scaling SaaS product without external investments to profitable company. Highly organized and independent; able to effectively coordinate tasks to accomplish projects with timeliness and creativity. Innovative, enthusiastic, and uncompromising work ethic. Functional programming - Rank 1 @ HackerRank\n"
   },
 
   "contact": {
@@ -20,6 +20,12 @@
 
 
   "social": [
+    {
+      "label": "Twitter",
+      "network": "Twitter",
+      "user": "stanthoughts",
+      "url": "https://twitter.com/stanthoughts"
+    },
      {"label":"LinkedIn",
         "network": "LinkedIn",
         "username": "jacke1",
@@ -36,14 +42,15 @@
 
 
   "employment": {
-    "summary": "Experience including developemnt from small project to medium sized projects.",
+    "summary": "6+ years industry IT and software development experience.",
     "history": [
+ 
      {
       "employer": "Flownotes",
-      "position": "Full stack developer/Co-founder",
+      "position": "Full stack developer",
       "url": "https://flonotes.minorityapp.com",
       "start": "2016-12",
-      "summary": "Participated in development from scratch of Online notepad with dynamic content recognition and deep content type interactions",
+      "summary": "Online notepad with dynamic content recognition and deep content type interactions",
        "keywords": ["TypeScript", "React", "Redux", "WebSocket", "WebWorkers"],
       "highlights": [
         "Participated in development of Minimal Vialible Product",
@@ -52,30 +59,56 @@
       ]
     },
     {
+      "employer": "Flownotes",
+      "position": "Founder",
+      "url": "https://flonotes.minorityapp.com",
+      "start": "2016-12",
+      "summary": "Online notepad with dynamic content recognition and deep content type interactions",
+      "keywords": [],
+      "highlights": [
+        "Performed market researching based on internal",
+        "Initiated early customer acqusition"
+      ]
+    },
+    {
       "employer": "GetGPU",
-      "position": "Full stack developer",
+      "position": "Founder",
       "url": "https://getgpu.github.io",
       "start": "2016-02",
-      "summary": "Participated in development from scratch of online service that gives cheap and affordable gpu instances",
+      "summary": "GetGPU is a service that give cheap and affordable gpu instances",
       "keywords": ["Java", "Ansible"],
       "highlights": [
-        "Participated in development of Minimal Vialible Product",
-        "Created a RESTful API endpoints using Scala and Akka"        
+        "Participated in development of Minimal Vialible Product"
       ]
     },
     {
       "employer": "Minority",
-      "position": "Software enginer/Co-founder",
+      "position": "Software enginer",
       "url": "https://minorityapp.com",
       "start": "2015-12",
-      "summary": "Initiated development of workflow managment platform that helps people to describe their daily activities and to automate routine tasks",
-      "keywords": ["Java", "Scala", "AngularJS", "nginx", "Akka", "PostgreSQL"],
+      "summary": "Workflow managment platform that helps people to describe their daily activities and to automate routine tasks",
+      "keywords": ["Java", "Scala", "AngularJS"],
       "highlights": [
         "Worked boilerplate development",
         "Hiring external developers for delegation development activities",
         "Preformed testing for various types of product's components",
-        "Wrote initial user/developer documentation, code styles, design guide",
-        "Implemented payment system using Stripe"
+        "Wrote initial user/developer documentation, code styles, design guide"
+      ]
+    },
+    {
+      "employer": "Minority",
+      "position": "Founder",
+      "url": "https://minorityapp.com",
+      "start": "2015-12-01",
+      "summary": "Workflow managment platform that helps people to describe their daily activities and to automate routine tasks",
+      "keywords": [],
+      "highlights": [
+        "Identified opportunity to develop those type of platform",
+        "Preformed initial customer acquisitions",
+        "Researched several effective marketing channels that specific to this type of products",
+        "Organized building of sales team",
+        "Constantly searched for partnership with big players on various events and by direct proposition",
+        "Organized initial support and recurring customer stream"
       ]
     },
     {
@@ -98,7 +131,7 @@
       "start": "2015-06",
       "end": "2015-10",
       "summary": "A single place to share, curate and discover visual content that tells a story.",
-      "keywords": ["JavaScript", "React", "Redux", "Photoshop"],
+      "keywords": ["JavaScript", "React", "Redux"],
       "highlights": [
         "Created new React components, and contributed to legacy architecture",
         "Designed interface mockups, web forms, and information architecture",
@@ -113,7 +146,7 @@
       "url": "https://2gis.ru",
       "start": "2015-05",
       "end": "2015-08",
-      "summary": "2GIS is a free business listings with a city map.",
+      "summary": "2GIS is a free business listings with a city map..",
       "keywords": ["JavaScript"],
       "highlights": [
         "Improved user experience and user interaction on client-side",
@@ -126,7 +159,7 @@
       "position": "Software enginer",
       "start": "2015-03",
       "end": "2015-05",
-      "keywords": ["RubyOnRails", "Web Scrapping", "Photoshop"],
+      "keywords": ["RubyOnRails", "Web Scrapping"],
       "summary": "Service for collecting items around all internet marketplaces where users can bookmark any item and recieve price updates",
       "highlights": [
         "Created rich, flexible, standards-compliant urls using Ruby on Rails and hand-coded HTML5, CSS3, and JavaScript"
@@ -138,7 +171,7 @@
       "start": "2015-01",
       "end": "2015-03",
       "keywords": ["RubyOnRails", "nginx", "SAP Integration"],
-      "summary": "Knigipodarki - online book store with referal features for recuring customers",
+      "summary": "Online book store with referal features for recuring customers",
       "highlights": [
         "Develop a rich, responsive back-end, building from the ground up using Ruby on Rails",
         "Collaborated with programmers, the CEO, and partner companies to resolve issues. Wrote documentation"
@@ -150,8 +183,8 @@
       "url": "http://dextra.ru",
       "start": "2013-12",
       "end": "2014-12",
-      "keywords": ["Django", "RubyOnRails", "Databases", "Photoshop"],
-      "summary": "Worked in one of major local web agency in my home region",
+      "keywords": ["Django", "RubyOnRails", "Databases"],
+      "summary": "One of major local web agency in the region",
       "highlights": [
         "Develop a rich, responsive back-end, building from the ground up using Ruby on Rails",
         "Collaborated with programmers, the CEO, and partner companies to resolve issues. Wrote documentation",
@@ -160,6 +193,9 @@
         "Worked on routine tasks that represented on several technologies included Javascript and PHP/Python"
       ]
     }
+
+
+
     ]
 
   },
@@ -170,7 +206,7 @@
     "degree": "BSCS",
     "history": [
  {
-        "institution": "CSU Chelyabinsk state university",
+        "institution": "CSU Chel state university",
         "title": "Business informatics",
         "url": "https://csu.ru/",
         "start": "2011-06",
@@ -184,7 +220,7 @@
         "institution": "RBIM Russian-british institute of managment",
         "title": "Computer Science",
         "url": "https://rbim.ru",
-        "start": "2008-06",
+        "start": "008-06",
         "end": "2011-01",
         "grade": "4.5",
         "summary": "",
@@ -236,6 +272,18 @@
       "from": "Coursera",
       "date": "2015",
       "event": "https://www.coursera.org/learn/algorithms-on-graphs"
+    },
+    {
+      "title": "Marketing specialization",
+      "from": "Coursera IE Business School",
+      "date": "2016",
+      "event": "https://www.udacity.com/course/design-of-computer-programs--cs212"
+    },
+    {
+      "title": "Entrepreneurship Specialization",
+      "from": "Coursera University of Pennsylvania",
+      "date": "2016",
+      "event": "https://www.udacity.com/course/design-of-computer-programs--cs212"
     }
 ],
 
@@ -243,6 +291,7 @@
 
   
   "skills": {
+
     "sets": [
       {
         "name": "Software Enginering",
@@ -252,8 +301,7 @@
         "TypeScript",
         "Java",
         "Scala",
-        "Algorithms",
-        "Photoshop"
+        "Algorithms"
         ]
       },
       {
@@ -265,9 +313,38 @@
         "Hadoop",
         "Spark"
         ]
-      }       
+      },
+      {
+        "name": "Team leading",
+        "level": "good",
+        "skills": ["Comunication", "Delegation"]
+      },
+      {
+        "name": "Marketing",
+        "level": "good",
+        "skills": ["Market researching",
+        "Inbound marketing",
+        "Customer development"]
+      },
+       {
+        "name": "Busines",
+        "level": "advanced",
+        "skills": ["Accounting",
+        "Finantial planning",
+        "Human resources",
+        "Employee motivation"]
+      }    
     ]
   },
+
+  "samples": [
+    {
+      "title": "Flonotes Source Code",
+      "summary": "A browser-based space shooter built on Three.js.",
+      "url": "https://github.com/Empia/flownotes_chrome",
+      "date": "2017-01"
+    }
+  ],
 
 
   "languages": [
