@@ -1,303 +1,164 @@
 {
-  "name": "Stanislav Sobolev",
-  "meta": {
-    "format": "FRESH@0.6.0",
-    "version": "0.4.0"
-  },
-  "info": {
-    "characterClass": "Programmer",
-    "label": "Full stack developer",
-    "brief": "Software Developer with 6+ years history of diverse industry experience. Startup founder with expirience of bootstraping and scaling SaaS product without external investments to profitable company. Highly organized and independent; able to effectively coordinate tasks to accomplish projects with timeliness and creativity. Innovative, enthusiastic, and uncompromising work ethic. Functional programming - Rank 1 @ HackerRank\n"
-  },
-  "contact": {
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Stanislav Sobolev (Stan)",
+    "label": "Programmer",
+    "image": "",
     "email": "iamjacke@gmail.com",
-    "phone": "+7 (909) 086-04-51",
-    "url": "https://github.com/Jacke",
-    "other": []
-  },
-  "social": [
-    {
-      "label": "LinkedIn",
-      "network": "LinkedIn",
-      "username": "jacke1",
-      "url": "https://www.linkedin.com/in/jacke1"
+    "phone": "(912) 555-4321",
+    "url": "http://richardhendricks.example.com",
+    "summary": "Richard hails from Tulsa. He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinal!) Before starting Pied Piper, he worked for Hooli as a part time software developer. While his work focuses on applied information theory, mostly optimizing lossless compression schema of both the length-limited and adaptive variants, his non-work interests range widely, everything from quantum computing to chaos theory. He could tell you about it, but THAT would NOT be a “length-limited” conversation!",
+    "location": {
+      "address": "2712 Broadway St",
+      "postalCode": "CA 94115",
+      "city": "San Francisco",
+      "countryCode": "US",
+      "region": "California"
     },
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "neutralthoughts",
+        "url": ""
+      },
+      {
+        "network": "SoundCloud",
+        "username": "dandymusicnl",
+        "url": "https://soundcloud.example.com/dandymusicnl"
+      }
+    ]
+  },
+  "work": [
     {
-      "label": "HackerRank",
-      "network": "HackerRank",
-      "username": "iamjacke",
-      "url": "https://www.hackerrank.com/iamjacke"
+      "name": "Pied Piper",
+      "location": "Palo Alto, CA",
+      "description": "Awesome compression company",
+      "position": "CEO/President",
+      "url": "http://piedpiper.example.com",
+      "startDate": "2013-12-01",
+      "endDate": "2014-12-01",
+      "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
+      "highlights": [
+        "Build an algorithm for artist to detect if their music was violating copy right infringement laws",
+        "Successfully won Techcrunch Disrupt",
+        "Optimized an algorithm that holds the current world record for Weisman Scores"
+      ]
     }
   ],
-  "employment": {
-    "summary": "Experience including developemnt from small project to medium sized projects.",
-    "history": [
-      {
-        "employer": "Flownotes",
-        "position": "Full stack developer/Co-founder",
-        "url": "https://flonotes.minorityapp.com",
-        "start": "2016-12",
-        "summary": "Participated in development from scratch of Online notepad with dynamic content recognition and deep content type interactions",
-        "keywords": [
-          "TypeScript",
-          "React",
-          "Redux",
-          "WebSocket",
-          "WebWorkers"
-        ],
-        "highlights": [
-          "Participated in development of Minimal Vialible Product",
-          "Performed testing for various types of product's components",
-          "Wrote initial user/developer documentation, code styles, design guide"
-        ]
-      },
-      {
-        "employer": "GetGPU",
-        "position": "Full stack developer",
-        "url": "https://getgpu.github.io",
-        "start": "2016-02",
-        "summary": "Participated in development from scratch of online service that gives cheap and affordable gpu instances",
-        "keywords": [
-          "Java",
-          "Ansible"
-        ],
-        "highlights": [
-          "Participated in development of Minimal Vialible Product",
-          "Created a RESTful API endpoints using Scala and Akka"
-        ]
-      },
-      {
-        "employer": "Minority",
-        "position": "Software enginer/Co-founder",
-        "url": "https://minorityapp.com",
-        "start": "2015-12",
-        "summary": "Initiated development of workflow managment platform that helps people to describe their daily activities and to automate routine tasks",
-        "keywords": [
-          "Java",
-          "Scala",
-          "AngularJS",
-          "nginx",
-          "Akka",
-          "PostgreSQL"
-        ],
-        "highlights": [
-          "Worked boilerplate development",
-          "Hiring external developers for delegation development activities",
-          "Preformed testing for various types of product's components",
-          "Wrote initial user/developer documentation, code styles, design guide",
-          "Implemented payment system using Stripe"
-        ]
-      },
-      {
-        "employer": "Software enginer",
-        "position": "Upwork",
-        "url": "http://upwork.com",
-        "start": "2015-10",
-        "summary": "",
-        "highlights": [
-          "Build large-scale web applications and mobile-first urls using JavaScript, React, AngularJS, and Java/Scala",
-          "Researched and implemented new technologies including isomorphic JavaScript and MVC frameworks",
-          "Collaborated closely with designers, copywriters, business stakeholders, and other developers",
-          "Was a representative between business stakeholders and developers"
-        ]
-      },
-      {
-        "employer": "Stampsy",
-        "position": "Software enginer",
-        "url": "http://stampsy.com",
-        "start": "2015-06",
-        "end": "2015-10",
-        "summary": "A single place to share, curate and discover visual content that tells a story.",
-        "keywords": [
-          "JavaScript",
-          "React",
-          "Redux",
-          "Photoshop"
-        ],
-        "highlights": [
-          "Created new React components, and contributed to legacy architecture",
-          "Designed interface mockups, web forms, and information architecture",
-          "Wrote HTML, CSS, JS, and TypeScript code for front-end",
-          "Tested, revised, and deployed code. Found and resolved Section 508 compliance issues",
-          "Wrote internal and user-facing documentation, and led document reorganization project"
-        ]
-      },
-      {
-        "employer": "2GIS",
-        "position": "Software enginer",
-        "url": "https://2gis.ru",
-        "start": "2015-05",
-        "end": "2015-08",
-        "summary": "2GIS is a free business listings with a city map.",
-        "keywords": [
-          "JavaScript"
-        ],
-        "highlights": [
-          "Improved user experience and user interaction on client-side",
-          "Bu using plain modular javascript",
-          "Created rich, flexible, standards-compliant urls using Ruby on Rails and hand-coded HTML5, CSS3, and JavaScript"
-        ]
-      },
-      {
-        "employer": "Hochuli",
-        "position": "Software enginer",
-        "start": "2015-03",
-        "end": "2015-05",
-        "keywords": [
-          "RubyOnRails",
-          "Web Scrapping",
-          "Photoshop"
-        ],
-        "summary": "Service for collecting items around all internet marketplaces where users can bookmark any item and recieve price updates",
-        "highlights": [
-          "Created rich, flexible, standards-compliant urls using Ruby on Rails and hand-coded HTML5, CSS3, and JavaScript"
-        ]
-      },
-      {
-        "employer": "Knigipodarki",
-        "position": "Software enginer",
-        "start": "2015-01",
-        "end": "2015-03",
-        "keywords": [
-          "RubyOnRails",
-          "nginx",
-          "SAP Integration"
-        ],
-        "summary": "Knigipodarki - online book store with referal features for recuring customers",
-        "highlights": [
-          "Develop a rich, responsive back-end, building from the ground up using Ruby on Rails",
-          "Collaborated with programmers, the CEO, and partner companies to resolve issues. Wrote documentation"
-        ]
-      },
-      {
-        "employer": "Dextra",
-        "position": "Software enginer",
-        "url": "http://dextra.ru",
-        "start": "2013-12",
-        "end": "2014-12",
-        "keywords": [
-          "Django",
-          "RubyOnRails",
-          "Databases",
-          "Photoshop"
-        ],
-        "summary": "Worked in one of major local web agency in my home region",
-        "highlights": [
-          "Develop a rich, responsive back-end, building from the ground up using Ruby on Rails",
-          "Collaborated with programmers, the CEO, and partner companies to resolve issues. Wrote documentation",
-          "Developed more than 20 web projects for different types of customers",
-          "Supported projects with existing codebases and preformed small changes based on customer's needs",
-          "Worked on routine tasks that represented on several technologies included Javascript and PHP/Python"
-        ]
-      }
-    ]
-  },
-  "education": {
-    "summary": "",
-    "level": "degree",
-    "degree": "BSCS",
-    "history": [
-      {
-        "institution": "CSU Chelyabinsk state university",
-        "title": "Business informatics",
-        "url": "https://csu.ru/",
-        "start": "2011-06",
-        "end": "2015-07",
-        "grade": "4.3",
-        "summary": "",
-        "curriculum": []
-      },
-      {
-        "institution": "RBIM Russian-british institute of managment",
-        "title": "Computer Science",
-        "url": "https://rbim.ru",
-        "start": "2008-06",
-        "end": "2011-01",
-        "grade": "4.5",
-        "summary": "",
-        "curriculum": []
-      }
-    ]
-  },
-  "recognition": [
+  "volunteer": [
     {
-      "title": "Design of Computer Programs",
-      "from": "Udacity",
-      "date": "2013",
-      "event": "https://www.udacity.com/course/design-of-computer-programs--cs212"
-    },
-    {
-      "title": "Intro to Algorithms",
-      "from": "Udacity",
-      "date": "2013",
-      "event": "https://www.udacity.com/course/intro-to-algorithms--cs215"
-    },
-    {
-      "title": "Computability, Complexity and Algorithms",
-      "from": "Udacity",
-      "date": "2013",
-      "event": "https://www.udacity.com/course/computability-complexity-algorithms--ud061"
-    },
-    {
-      "title": "Algorithms Specialization",
-      "from": "Coursera",
-      "date": "2014",
-      "event": "https://www.coursera.org/specializations/algorithms"
-    },
-    {
-      "title": "Functional Programming Principles in Scala",
-      "from": "Coursera",
-      "date": "2014",
-      "event": "https://www.coursera.org/learn/progfun1"
-    },
-    {
-      "title": "Machine Learning",
-      "from": "Coursera",
-      "date": "2015",
-      "event": "https://www.coursera.org/learn/machine-learning"
-    },
-    {
-      "title": "Algorithms on Graphs",
-      "from": "Coursera",
-      "date": "2015",
-      "event": "https://www.coursera.org/learn/algorithms-on-graphs"
+      "organization": "CoderDojo",
+      "position": "Teacher",
+      "url": "http://coderdojo.example.com/",
+      "startDate": "2012-01-01",
+      "endDate": "2013-01-01",
+      "summary": "Global movement of free coding clubs for young people.",
+      "highlights": [
+        "Awarded 'Teacher of the Month'"
+      ]
     }
   ],
-  "skills": {
-    "sets": [
-      {
-        "name": "Software Enginering",
-        "level": "advanced",
-        "skills": [
-          "Javascript",
-          "TypeScript",
-          "Java",
-          "Scala",
-          "Algorithms",
-          "Photoshop"
-        ]
-      },
-      {
-        "name": "Data Science",
-        "level": "beginner",
-        "skills": [
-          "Machnine learning",
-          "Optimization",
-          "Hadoop",
-          "Spark"
-        ]
-      }
-    ]
-  },
+  "education": [
+    {
+      "institution": "University of Oklahoma",
+      "url": "https://www.ou.edu/",
+      "area": "Information Technology",
+      "studyType": "Bachelor",
+      "startDate": "2011-06-01",
+      "endDate": "2014-01-01",
+      "score": "4.0",
+      "courses": [
+        "DB1101 - Basic SQL",
+        "CS2011 - Java Introduction"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Digital Compression Pioneer Award",
+      "date": "2014-11-01",
+      "awarder": "Techcrunch",
+      "summary": "There is no spoon."
+    }
+  ],
+  "publications": [
+    {
+      "name": "Video compression for 3d media",
+      "publisher": "Hooli",
+      "releaseDate": "2014-10-01",
+      "url": "http://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)",
+      "summary": "Innovative middle-out compression algorithm that changes the way we store data."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript"
+      ]
+    },
+    {
+      "name": "Compression",
+      "level": "Master",
+      "keywords": [
+        "Mpeg",
+        "MP4",
+        "GIF"
+      ]
+    }
+  ],
   "languages": [
     {
       "language": "English",
-      "level": "Fluent",
-      "years": 10
-    },
-    {
-      "language": "Russian",
-      "level": "Native"
+      "fluency": "Native speaker"
     }
-  ]
+  ],
+  "interests": [
+    {
+      "name": "Wildlife",
+      "keywords": [
+        "Ferrets",
+        "Unicorns"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Erlich Bachman",
+      "reference": "It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
+    }
+  ],
+  "projects": [
+    {
+      "name": "Miss Direction",
+      "description": "A mapping engine that misguides you",
+      "highlights": [
+        "Won award at AIHacks 2016",
+        "Built by all women team of newbie programmers",
+        "Using modern technologies such as GoogleMaps, Chrome Extension and Javascript"
+      ],
+      "keywords": [
+        "GoogleMaps",
+        "Chrome Extension",
+        "Javascript"
+      ],
+      "startDate": "2016-08-24",
+      "endDate": "2016-08-24",
+      "url": "missdirection.example.com",
+      "roles": [
+        "Team lead",
+        "Designer"
+      ],
+      "entity": "Smoogle",
+      "type": "application"
+    }
+  ],
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
+    "version": "v1.0.0",
+    "lastModified": "2017-12-24T15:53:00"
+  }
 }
